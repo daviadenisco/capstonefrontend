@@ -12,5 +12,6 @@ import Footer from './components/footer';
 import './App.css';
 import registerServiceWorker from './registerServiceWorker';
 
+ReactDOM.render(<NavBar />, document.getElementById('nav'));
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

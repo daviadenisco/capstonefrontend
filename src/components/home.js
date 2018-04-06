@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-router-redux';
 import { matchRoutes } from 'react-router-config';
 import App from '../App.js';
+import MeetTheStudents from './meetthestudents.js';
 import Bootstrap from 'react-bootstrap';
 import '../App.css';
 
 class Home extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       studentinfotablearr: [],
       loading: false
     }
     this.getstudentinfo = this.getstudentinfo.bind(this)
+    this.handleClick = this.handleClick.bind(this)
   };
 
   async getstudentinfo() {
@@ -26,10 +27,12 @@ class Home extends Component {
       loading: false
     })
   }
-  componentDidMount() {
+  componentWillMount() {
     this.getstudentinfo();
   }
-
+  handleClick() {
+    this.props.returnStudentInfo();
+  }
   render() {
     // if (this.state.loading) {
     //   return (
@@ -38,14 +41,16 @@ class Home extends Component {
     //     </div>
     //   )
     // }
+
     return this.state.studentinfotablearr.map((student, index) =>
-        <div id="allStudentImagesTogether" className="col s6 m6 l4" key={index}>
-          <a href="/student/:id">
-            <a id="studentImages">
-              <img id="roundimg" src={student.headshot} title={student.fullname} responsive></img></a>
-            <p id="studentName">{student.fullname}</p>
+      <div id="studentBody" onClick={this.handleClick}>
+        <div className="col s6 m6 l4" key={index}>
+          <a href={`/student/${student.id}`} id="studentImages">
+          <img id="roundimg" src={student.headshot} title={student.fullname} responsive></img>
+          <p><a id="studentName" href={`/student/${student.id}`}>{student.fullname}</a></p>
           </a>
         </div>
+      </div>
     )
   }
 }
