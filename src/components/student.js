@@ -1,5 +1,6 @@
 import React, {Component, ChildComponent} from 'react';
 import {BrowserRouter, NavLink, Route, Link} from 'react-router-dom';
+import Ionicon from 'react-ionicons'
 import { Bootstrap, Tabs, Tab, Row, Col, Nav, NavItem, Jumbotron, Grid, Container, Content, Pane } from 'react-bootstrap';
 import '../App.css';
 
@@ -48,6 +49,7 @@ this.setState({student: json, loading: false})
           </Col>
             <Col md={6} mdPull={6}>
             <h1>{this.student.fullname}</h1>
+
           </Col>
         </Row>
         <Row>
