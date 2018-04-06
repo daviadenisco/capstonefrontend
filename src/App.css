@@ -6,74 +6,167 @@ body {
   margin: 0;
 }
 
-/* sticky header */
-#header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 75px;
-  background-color: #043B4B;
-  z-index: 99;
-}
-
 /* NAVBAR */
-
-/* whole navbar */
+#nav {
+  border-radius: 0 !important;
+}
 .navbar {
-  position: sticky;
-  top: 0;
-  background-color: #043B4B;
-  width: 100%;
-  opacity: 0.97;
-  text-align: left;
-  border-radius: 0px;
+  border-radius: 0;
+  background: #043B4B;
 }
 
 .galvanize-logo {
-  height: 2em;
-  padding-top: 21px;
-  padding-left: 50px;
-  padding-bottom: 20px;
+  padding-top: 0.5em;
 }
 
-.eventbrite-logo {
-  height: 2em;
-  padding-top: 21px;
-  padding-right: 50px;
-  padding-bottom: 21px;
-  float: right;
+/* rsvp */
+.btn.btn-link {
+  color: #F58F32;
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  letter-spacing: 1px;
+  padding: 0;
+  margin: 0;
 }
 
-.eventbrite-logo:hover {
-  text-shadow: 2px 2px 5px red;
+#button {
+  color: #F58F32;
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.65em;
+  letter-spacing: 1.1px;
+  -webkit-transform:scale(0.93, 1.0);
+  -moz-transform:scale(0.93, 1.0);
+  -ms-transform:scale(0.93, 1.0);
+  -o-transform:scale(0.93, 1.0);
+  transform:scale(0.93,1.0);
+  /* transform:scale(1,0.95);
+  -webkit-transform:scale(1,0.95);
+  -moz-transform:scale(1,0.95);
+  -ms-transform:scale(1,0.95);
+  -o-transform:scale(1,0.95); */
 }
 
-.RSVP {
-  width: 2.5em;
-  height: auto;
-  float: right;
-  padding-right: 3.5em;
-  padding-top: 3px;
+#button:hover {
+  text-decoration: none;
 }
 
 /* Meet the Students*/
-.meetTheStudentsHeader {
-    font-size: 2em;
-    /* padding-left: 3em; */
-    padding-top: 1.25em;
-    text-align: center;
-    font-weight: 500;
+div#root.row {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
 }
 
-.students {
-  font-size: 1.3em;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  /* color: #043B4B; */
-  color: black;
-  margin: 0;
-  padding-left: 7.5em;
-  padding-right: 4.5em;
+body #meetTheStudents {
+  width: 100%;
+  position: relative;
+}
+.meetTheStudentsHeader {
+    font-size: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    color: #793451;
+
+}
+
+#root {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#studentBody {
+  margin: 0 auto;
+  width: 100%;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+#studentImages {
+  display: inline;
+  max-width: 100%;
+  width: 15em;
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-align: center;
+  float: left;
+}
+
+#roundimg {
+  width: 13.5em;
+  max-width: 100%;
+  height: auto;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 1em;
+  text-align: center;
+}
+
+#roundimg:hover {
+  border-radius: 50%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#studentName {
+  font-size: 1.2em;
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  letter-spacing: 1px;
+  -webkit-transform:scale(0.95, 1.0);
+  -moz-transform:scale(0.95, 1.0);
+  -ms-transform:scale(0.95, 1.0);
+  -o-transform:scale(0.95, 1.0);
+  transform:scale(0.95,1.0);
+  font-weight: 300;
+}
+
+#studentName:hover {
+  text-decoration: none;
+}
+
+/* student details pages */
+
+.col-md-pull-6 {
+  right: 0;
+}
+/* tabs for capstone desc and bio */
+.tabs {
+  width: 100%;
+  text-align: left;
+  bottom: 0;
+  word-wrap: none;
+  text-align: justify;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: #47B6C4;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+a:hover {
+  color: #793451;
+}
+
+a {
+  color: #47B6C4;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  text-align: right;
 }
 
 /* github, linkedin, email icons on each card */
@@ -83,7 +176,7 @@ body {
 }
 
 /* footer stuff */
-#footer {
+/* #footer {
   left: 0;
   top: 0;
   bottom: 0;
@@ -94,7 +187,7 @@ body {
   overflow: hidden;
   margin: 0;
   /* z-index: 99; */
-}
+/*} */
 
 /* galvanize "G" */
 .footerImg {
@@ -151,60 +244,6 @@ body {
   width: 30px;
   height: auto;
 }
-/*
-#allStudentImagesTogether {
-  display: inline;
-  max-width: 100%;
-} */
-
-#studentImages {
-  display: inline;
-  /* padding-left: 5em;
-  margin-bottom: 10em; */
-  max-width: 100%;
-  width: 12.5em;
-  /* border: 1px solid red; */
-  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
-  font-weight: normal;
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 5em;
-  margin-right: 5em;
-  float: left;
-}
-
-#roundimg {
-  border-radius: 50%;
-  /* border: 10px solid #043B4B; */
-  /* border: 10px solid #ffffff; */
-  width: 12.5em;
-  box-shadow: 5px 10px;
-  max-width: 100%;
-  height: auto;
-  -moz-box-shadow: inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 10px #000000;
-  margin-top: 1em;
-  text-align: center;
-}
-
-#roundimg:hover {
-  border-radius: 50%;
-  /* border: 10px solid #F58B41; */
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  /* position: absolute;
-  backface-visibility: hidden; */
-}
-
-.name {
-  color: black;
-  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
-  font-size: 1em;
-  font-weight: normal;
-  text-align: center;
-  padding-right: 50px;
-}
 
 .galvanizeG {
   width: 150px;
@@ -228,41 +267,6 @@ body {
 
 td {
   padding: 0 !important;
-}
-#rightSide {
-  margin-bottom: 20px !important;
-}
-
-.footerNavContainer {
-  vertical-align: top;
-  text-align: left;
-  border: none;
-}
-
-.menuItems {
-  margin-top: 40px;
-  float: left;
-  margin-left: 0 !important;
-}
-
-.footerNav {
-  text-align: left;
-}
-
-.menuFooter {
-  display: block;
-  color: #C6BFB7;
-  text-align: left;
-  float: left;
-}
-
-table {
-  width: 100%;
-
-}
-
-.menuItems {
-  list-style: none;
 }
 
 .menuAbout {
@@ -356,16 +360,6 @@ table {
 
 .spacing {
   color: #043B4B;
-}
-
-footer {
-  position: sticky;
-  background-color: #043B4B;
-  width: 100%;
-  height: 300px;
-  bottom: 0;
-  text-align: left;
-  opacity: 0.97;
 }
 
 #loading {
