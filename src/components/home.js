@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import { matchRoutes } from 'react-router-config';
 import App from '../App.js';
-import MeetTheStudents from './meetthestudents.js';
 import Bootstrap from 'react-bootstrap';
 import '../App.css';
 
@@ -43,6 +42,7 @@ class Home extends Component {
     // }
 
     return this.state.studentinfotablearr.map((student, index) =>
+    <div id="allStudents">
       <div id="studentBody" onClick={this.handleClick}>
         <div className="col s6 m6 l4" key={index}>
           <a href={`/student/${student.id}`} id="studentImages">
@@ -51,6 +51,7 @@ class Home extends Component {
           </a>
         </div>
       </div>
+    </div>
     )
   }
 }

@@ -44,9 +44,9 @@ class App extends Component {
     return this.state.studentinfotablearr
   }
 
-  returnHeader() {
-    return <MeetTheStudents />
-  }
+  // returnHeader() {
+  //   return <MeetTheStudents />
+  // }
 
   render() {
     // if (this.props.loading) {
