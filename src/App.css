@@ -1,4 +1,16 @@
-/* general / overall body */
+/* colors */
+/* names black color: #333333; */
+/* body offwhite background: #f2f2f2; */
+/* navbar dark teal background: #043B4B; */
+/* galvanize logo color: #F58F32; */
+/* galvanize aqua color: #47B6C4; */
+/* galvanize maroon color: #793451; */
+/* galvanize light aqua color: #c5e8ec; */
+
+/* ---------------------------- */
+          /* BODY */
+/* ---------------------------- */
+
 body {
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-weight: 300;
@@ -6,17 +18,24 @@ body {
   margin: 0;
 }
 
-/* NAVBAR */
+/* ---------------------------- */
+          /* NAVBAR */
+/* ---------------------------- */
+
 #nav {
   border-radius: 0 !important;
+  margin: 0;
 }
+
 .navbar {
   border-radius: 0;
   background: #043B4B;
+  margin: 0;
 }
 
 .galvanize-logo {
   padding-top: 0.5em;
+  margin: 0;
 }
 
 /* rsvp */
@@ -30,7 +49,8 @@ body {
   margin: 0;
 }
 
-#button {
+/* rsvp */
+ul li a #button {
   color: #F58F32;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-weight: 300;
@@ -41,64 +61,81 @@ body {
   -ms-transform:scale(0.93, 1.0);
   -o-transform:scale(0.93, 1.0);
   transform:scale(0.93,1.0);
-  /* transform:scale(1,0.95);
-  -webkit-transform:scale(1,0.95);
-  -moz-transform:scale(1,0.95);
-  -ms-transform:scale(1,0.95);
-  -o-transform:scale(1,0.95); */
-}
-
-#button:hover {
-  text-decoration: none;
-}
-
-/* Meet the Students*/
-div#root.row {
-  width: 100%;
-  position: relative;
-  padding: 0;
   margin: 0;
 }
 
-body #meetTheStudents {
-  width: 100%;
-  position: relative;
+/* rsvp */
+#nav > nav > div > div.navbar-collapse.collapse > ul.nav.navbar-nav.navbar-right > li > a{
+  /* border: 2px solid rgba(0, 0, 0, 0); */
+  border: none;
+  margin: 0;
 }
+
+/* rsvp */
+#button:hover {
+  text-decoration: none;
+  margin: 0;
+}
+
+/* ---------------------------- */
+      /* Meet the Students*/
+/* ---------------------------- */
+
 .meetTheStudentsHeader {
-    font-size: 2em;
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
-    text-align: center;
-    font-weight: 300;
-    letter-spacing: 0.25px;
-    color: #793451;
-
-}
-
-#root {
+  font-size: 2em;
+  margin-top: 2.25em;
+  margin-bottom: 2.25em;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+  opacity: 0.9;
+  color: #793451;
   width: 100%;
   height: auto;
   position: relative;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+#meetTheStudentsDiv {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#allStudents {
+  width: 75%;
+  margin: 0 auto;
+  padding: 0;
 }
 
 #studentBody {
-  margin: 0 auto;
   width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; */
 }
 
 * {
   box-sizing: content-box;
+  margin: 0;
 }
 
 #studentImages {
   display: inline;
   max-width: 100%;
   width: 15em;
+  height: auto;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-weight: normal;
   font-size: 1.5em;
   text-align: center;
   float: left;
+  margin: 1em;
 }
 
 #roundimg {
@@ -111,16 +148,20 @@ body #meetTheStudents {
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
   margin-top: 1em;
   text-align: center;
+  margin: 0;
 }
 
 #roundimg:hover {
   border-radius: 50%;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+  cursor:pointer;
+  margin: 0;
 }
 
-#studentName {
-  font-size: 1.2em;
+a#studentName {
+  font-size: 1em;
+  color: #333333;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   letter-spacing: 1px;
   -webkit-transform:scale(0.95, 1.0);
@@ -129,53 +170,141 @@ body #meetTheStudents {
   -o-transform:scale(0.95, 1.0);
   transform:scale(0.95,1.0);
   font-weight: 300;
+  margin: 0;
 }
 
-#studentName:hover {
+#studentName:hover #studentName:visited #studentName:link #studentName:active {
   text-decoration: none;
+  margin: 0;
 }
 
-/* student details pages */
+/* ---------------------------- */
+   /* student details pages */
+/* ---------------------------- */
 
 .col-md-pull-6 {
   right: 0;
+  margin: 0;
 }
+
 /* tabs for capstone desc and bio */
 .tabs {
   width: 100%;
-  text-align: left;
+  height: auto;
   bottom: 0;
   word-wrap: none;
   text-align: justify;
+  margin: 0;
 }
 
+/* tabs for capstone desc and bio */
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   background-color: #47B6C4;
   color: whitesmoke;
   letter-spacing: 1px;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
-  font-size: 1.5em;
-  text-align: right;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 0;
 }
 
+/* tabs for capstone desc and bio */
 a:hover {
-  color: #793451;
+  color: #47B6C4;
+  /* color: #793451; */
+  margin: 0;
 }
 
-a {
+/* tabs for capstone desc and bio */
+li a {
   color: #47B6C4;
+  /* color: #793451; */
   letter-spacing: 1px;
-  font-size: 1.5em;
-  text-align: right;
+  font-size: 1.4em;
+  text-align: center;
+  border: 1px solid #c5e8ec;
+  margin: 0;
+}
+
+/* tabs for capstone desc and bio */
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+/* tabs for capstone desc and bio */
+div#capbout {
+  margin: 2.5em;
+  padding-bottom: 7.5em;
 }
 
 /* github, linkedin, email icons on each card */
-#contactIcons {
-  width: 1.5em;
-  opacity: 0.85;
+#cardIcon {
+  font-size: 2em;
+  color: #47B6C4;
 }
 
-/* footer stuff */
+/* github, linkedin, email icons on each card */
+#cardIcon:hover {
+  transition: color 0.5s ease;
+  color: #F58F32;
+}
+
+/* whole card layout */
+#grid {
+  /* border: 1px solid red; */
+  background-color: white;
+}
+
+/* whole card layout */
+
+div#grid.container {
+  width: 65%;
+  height: auto;
+  margin-top: 5em;
+}
+
+#grid > div.imageRow.row {
+  margin-top: 2em;
+}
+
+#grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+  text-align: center;
+}
+
+#projectIcon {
+  font-size: 2em;
+  color: #793451;
+  opacity: 0.95;
+}
+
+#projectIcon:hover {
+  transition: color 0.5s ease;
+  color: #F58F32;
+}
+
+#projectRow {
+  margin: 1em;
+  text-align: left;
+}
+
+/* #carousel {
+  margin-top: 2em;
+  text-align: center;
+}
+
+#carousel > div > ol > li.active {
+  background-color: #F58F32;
+}
+
+#carousel > div > a.carousel-control.left > span.sr-only {
+  color: #F58F32;
+} */
+
+/* ---------------------------- */
+       /* footer stuff */
+/* ---------------------------- */
+
 /* #footer {
   left: 0;
   top: 0;
@@ -190,187 +319,193 @@ a {
 /*} */
 
 /* galvanize "G" */
-.footerImg {
+/* .footerImg {
   width: 85px;
   height: auto;
   float: left;
-}
+} */
 
 /* about, FAQ, and press links in footer */
-.footerLink {
+/* .footerLink {
   text-decoration: none;
   color: #C6BFB7;
   text-align: center;
-}
+} */
+
 /* hire our talent link */
-.hire {
+/* .hire {
   text-decoration: none;
   color: #F58B41;
   text-align: right;
-}
+} */
 
 /* galvanize social media contact icons */
-.icons {
+/* .icons {
   float: right;
   color: #C6BFB7;
-}
+} */
 
-#iconTwitter {
+/* #iconTwitter {
   width: 30px;
   height: auto;
-}
+} */
 
-#iconLinkedIn {
+/* #iconLinkedIn {
   width: 30px;
   height: auto;
-}
+} */
 
-#iconFacebook {
+/* #iconFacebook {
   width: 30px;
   height: auto;
-}
-
+} */
+/*
 #iconInstagram {
   width: 30px;
   height: auto;
-}
+} */
 
-#iconGooglePlus {
+/* #iconGooglePlus {
   width: 30px;
   height: auto;
-}
+} */
 
-#iconYouTube {
+/* #iconYouTube {
   width: 30px;
   height: auto;
-}
+} */
 
-.galvanizeG {
+/* .galvanizeG {
   width: 150px;
+  height: auto;
   padding: 23px;
   text-align: left;
   margin-left: 0 !important;
   padding-left: 0 !important;
   padding-top: 50px;
-}
+} */
 
-#hireOur {
+/* #hireOur {
   text-decoration: none;
   color: #C6BFB7;
-}
-.galvanizeGtd {
+} */
+
+/* .galvanizeGtd {
   width: 55;
+  height: auto;
   vertical-align: top;
   text-align: left;
   float: left;
-}
+} */
 
-td {
+/* td {
   padding: 0 !important;
-}
+} */
 
-.menuAbout {
+/* .menuAbout {
   color: #C6BFB7;
   float: left;
   text-decoration: none;
-}
+} */
 
-.menuAbout:hover {
+/* .menuAbout:hover {
   color: white;
   text-decoration: none;
-}
+} */
 
-.menuFAQ {
-  color: #C6BFB7;
-  padding-left: 10px;
-  float: left;
-  text-decoration: none;
-}
-
-.menuFAQ:hover {
-  color: white;
-  text-decoration: none;
-}
-
-.menuPress {
+/* .menuFAQ {
   color: #C6BFB7;
   padding-left: 10px;
   float: left;
   text-decoration: none;
-}
+} */
 
-.menuPress:hover {
+/* .menuFAQ:hover {
   color: white;
   text-decoration: none;
-}
+} */
 
-.menuCareers {
+/* .menuPress {
   color: #C6BFB7;
   padding-left: 10px;
   float: left;
   text-decoration: none;
-}
+} */
 
-.menuCareers:hover {
+/* .menuPress:hover {
   color: white;
   text-decoration: none;
-}
+} */
 
-.menuLogin {
+/* .menuCareers {
+  color: #C6BFB7;
+  padding-left: 10px;
+  float: left;
+  text-decoration: none;
+} */
+
+/* .menuCareers:hover {
+  color: white;
+  text-decoration: none;
+} */
+
+/* .menuLogin {
   color: #C6BFB7;
   padding-left: 10px;
   float: left;
   text-decoration: none;
   padding-right: 150px;
-}
+} */
 
-.menuLogin:hover {
+/* .menuLogin:hover {
   color: white;
   text-decoration: none;
-}
+} */
 
-.address {
+/* .address {
   color: #C6BFB7;
   float: left;
   text-align: left;
   width: 100%;
+  height: auto;
   border-top: 1px solid #C6BFB7;
-}
+} */
 
-.techTalent {
+/* .techTalent {
   color: #F58F32;
   text-decoration: none;
-}
+} */
 
-.techTalent:hover {
+/* .techTalent:hover {
   transition: color 0.5s ease;
   color: white;
   text-decoration: none;
-}
+} */
 
-.socialIcons {
+/* .socialIcons {
   display: inline-block;
-}
+} */
 
-#icons {
+/* #icons {
   color: #C6BFB7;
   text-decoration: none;
   display: inline-block;
-}
+} */
 
-.spacing {
+/* .spacing {
   color: #043B4B;
-}
+} */
 
-#loading {
+/* #loading {
   font-size: 30px;
   text-align: center;
-}
+} */
 
-#icons {
+/* #icons {
   font-size: 1em;
-}
-#icons:hover {
+} */
+
+/* #icons:hover {
   color: white;
   transition: all 0.5s ease;
-}
+} */

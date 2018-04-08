@@ -6,7 +6,6 @@ import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-ro
 import { matchRoutes } from 'react-router-config'
 import './index.css';
 import NavBar from './components/navbar';
-import MeetTheStudents from './components/meetthestudents';
 import App from './App';
 import Footer from './components/footer';
 import './App.css';
