@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-import { matchRoutes } from 'react-router-config';
-import App from '../App.js';
-import Bootstrap from 'react-bootstrap';
 import '../App.css';
 var json = require('./json.js').json;
 
@@ -49,7 +45,7 @@ class Home extends Component {
       <div id="studentBody" onClick={this.handleClick}>
         <div className="col s6 m6 l4" key={index}>
           <a href={`/student/${student.id}`} id="studentImages">
-          <img id="roundimg" src={student.headshot} title={student.fullname} responsive></img>
+          <img id="roundimg" src={student.headshot} title={student.fullname} responsive alt={student.fullname}></img>
           <p><a id="studentName" href={`/student/${student.id}`}>{student.fullname}</a></p>
           </a>
         </div>

@@ -1,12 +1,7 @@
 import React from 'react';
-import { Bootstrap, Navbar, NavItem, Nav, Header, Toggle, Brand, Collapse, Button } from 'react-bootstrap';
+import { Navbar, NavItem, Nav, Button } from 'react-bootstrap';
 import '../App.css';
 import galvanize from '../images/galvanize-logo.svg';
-import rsvp from '../images/rsvp-logo.svg';
-
-const style = {
-  border: 'none'
-}
 
 const NavBar = () =>
 

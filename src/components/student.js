@@ -1,8 +1,5 @@
-import React, {Component, ChildComponent} from 'react';
-import {BrowserRouter, NavLink, Route, Link} from 'react-router-dom';
-import Ionicon from 'react-ionicons';
-import { Bootstrap, Tabs, Tab, Row, Col, Nav, NavItem, Jumbotron, Grid, Container, Content, Pane, Carousel, Image } from 'react-bootstrap';
-import Home from './home.js';
+import React, { Component } from 'react';
+import { Tab, Row, Col, Nav, NavItem, Jumbotron, Grid } from 'react-bootstrap';
 import '../App.css';
 var json = require('./json.js').json;
 
@@ -54,7 +51,7 @@ class Student extends Component {
         <Row className="imageRow">
           <Col xs={6} md={4}>
             <a id="studentImages">
-              <img id="roundimg" src={this.student.headshot} title={this.student.fullname}></img>
+              <img id="roundimg" src={this.student.headshot} title={this.student.fullname} alt={this.student.fullname}></img>
             </a>
           </Col>
             <Col md={6} mdPull={6}>

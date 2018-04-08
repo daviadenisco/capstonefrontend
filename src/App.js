@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 // import { Router, Route, Switch } from 'react-router';
-import { BrowserRouter, NavLink, Route, Switch, Link } from 'react-router-dom';
-import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-router-redux';
-import { matchRoutes } from 'react-router-config';
-import { Button, Card, Row, Col, CardTitle, Icon } from 'react-materialize';
-import Bootstrap from 'react-bootstrap';
-import NavBar from './components/navbar';
+import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
 import MeetTheStudents from './components/meetthestudents';
 // import Footer from './components/footer';
 import Student from './components/student';
