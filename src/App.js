@@ -20,22 +20,24 @@ class App extends Component {
       loading: false,
       student: '1'
     }
-    this.getstudentinfo = this.getstudentinfo.bind(this)
-    this.returnStudentInfo = this.returnStudentInfo.bind(this)
+    // this.getstudentinfo = this.getstudentinfo.bind(this)
+    // this.returnStudentInfo = this.returnStudentInfo.bind(this)
   };
 
-  async getstudentinfo() {
-    const res = await fetch(`http://localhost:8000/studentInfoTable`);
+  // async getstudentinfo() {
+  //   const res = await fetch(`http://localhost:8000/studentInfoTable`);
+  //
+  //   const json = await res.json();
+  //
+  //   this.setState({
+  //     studentinfotablearr: json,
+  //     loading: false
+  //   })
+  // }
+  // var gatracking = document.getElementsByTagName('a');
 
-    const json = await res.json();
-
-    this.setState({
-      studentinfotablearr: json,
-      loading: false
-    })
-  }
   componentDidMount() {
-    this.getstudentinfo();
+    // this.getstudentinfo();
   }
 
   returnStudentInfo() {

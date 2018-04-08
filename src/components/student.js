@@ -2,7 +2,9 @@ import React, {Component, ChildComponent} from 'react';
 import {BrowserRouter, NavLink, Route, Link} from 'react-router-dom';
 import Ionicon from 'react-ionicons';
 import { Bootstrap, Tabs, Tab, Row, Col, Nav, NavItem, Jumbotron, Grid, Container, Content, Pane, Carousel, Image } from 'react-bootstrap';
+import Home from './home.js';
 import '../App.css';
+var json = require('./json.js').json;
 
 class Student extends Component {
   constructor(props) {
@@ -14,11 +16,18 @@ class Student extends Component {
     }
     this.getstudentinfo = this.getstudentinfo.bind(this)
   };
-  async getstudentinfo() {
-    const res = await fetch(`http://localhost:8000/studentInfoTable/${this.studentId}`);
-
-    const json = await res.json();
-this.setState({student: json, loading: false})
+  // async
+  getstudentinfo() {
+    // const res = await fetch(`http://localhost:8000/studentInfoTable/${this.studentId}`);
+    // const json = await res.json();
+    var matchStudent;
+    for (var i = 0; i < json.length; i++) {
+      if (json[i].id == this.studentId) {
+        matchStudent = json[i];
+      }
+    }
+    console.log("matchStudent", matchStudent);
+    this.setState({student: matchStudent, loading: false})
     // setTimeout(() => , 3000);
   }
   componentWillMount() {
@@ -96,34 +105,6 @@ this.setState({student: json, loading: false})
                 </Col>
               </Row>
             </Grid>
-            {/* <Row id="carousel">
-              <Carousel>
-                <Carousel.Item>
-                  <img width={900} height={500} alt="900x500" src={this.student.extraspace3} />
-                  <Carousel.Caption>
-                    <h3>Capstone</h3>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img width={900} height={500} alt="900x500" src={this.student.extraspace3} />
-                  <Carousel.Caption>
-                    <h3>Quarter 3</h3>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img width={900} height={500} alt="900x500" src={this.student.extraspace2} />
-                  <Carousel.Caption>
-                    <h3>Quarter 2</h3>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img width={900} height={500} alt="900x500" src={this.student.extraspace1} />
-                  <Carousel.Caption>
-                    <h3>Quarter 1</h3>
-                  </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-            </Row> */}
             </Col>
         </Row>
         <Row>
