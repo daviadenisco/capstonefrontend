@@ -40,13 +40,7 @@ body {
 
 /* rsvp */
 .btn.btn-link {
-  color: #F58F32;
-  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
-  font-weight: 300;
-  font-size: 2em;
-  letter-spacing: 1px;
   padding: 0;
-  margin: 0;
 }
 
 /* rsvp */
@@ -54,7 +48,7 @@ ul li a #button {
   color: #F58F32;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-weight: 300;
-  font-size: 1.65em;
+  font-size: 1.8em;
   letter-spacing: 1.1px;
   -webkit-transform:scale(0.93, 1.0);
   -moz-transform:scale(0.93, 1.0);
@@ -75,6 +69,11 @@ ul li a #button {
 #button:hover {
   text-decoration: none;
   margin: 0;
+}
+
+.rsvp-logo {
+  width: 2.16em;
+  height: 0.8em;
 }
 
 /* ---------------------------- */
@@ -233,10 +232,6 @@ li a {
 }
 
 /* tabs for capstone desc and bio */
-div#capbout {
-  margin: 2.5em;
-  padding-bottom: 7.5em;
-}
 
 /* github, linkedin, email icons on each card */
 #cardIcon {
@@ -272,34 +267,25 @@ div#grid.container {
   text-align: center;
 }
 
+.floatThis {
+  float:left;
+}
+
 #projectIcon {
   font-size: 2em;
-  color: #793451;
+  color: #F58F32;
   opacity: 0.95;
 }
 
 #projectIcon:hover {
   transition: color 0.5s ease;
-  color: #F58F32;
+  color: #793451;
 }
 
 #projectRow {
   margin: 1em;
   text-align: left;
 }
-
-/* #carousel {
-  margin-top: 2em;
-  text-align: center;
-}
-
-#carousel > div > ol > li.active {
-  background-color: #F58F32;
-}
-
-#carousel > div > a.carousel-control.left > span.sr-only {
-  color: #F58F32;
-} */
 
 /* ---------------------------- */
        /* footer stuff */

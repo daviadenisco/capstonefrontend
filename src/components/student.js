@@ -76,25 +76,25 @@ class Student extends Component {
               <Row>
                 <Col xs={6} md={4}>
                   <Row id="projectRow">
-                    <a href={this.student.capstonelink}>
+                    <a href={this.student.capstonelink} target="_blank">
                       <i id="projectIcon" className="fas fa-graduation-cap"></i>
                       View my Capstone Project
                     </a>
                   </Row>
                   <Row id="projectRow">
-                    <a href={this.student.q3project}>
+                    <a href={this.student.q3project} target="_blank">
                       <i id="projectIcon" className="fab fa-react"></i>
                       View my Third Quarter Project
                     </a>
                   </Row>
                   <Row id="projectRow">
-                    <a href={this.student.q2project}>
+                    <a href={this.student.q2project} target="_blank">
                       <i id="projectIcon" className="fas fa-database"></i>
                       View my Second Quarter Project
                     </a>
                   </Row>
                   <Row id="projectRow">
-                    <a href={this.student.q1project}>
+                    <a href={this.student.q1project} target="_blank">
                       <i id="projectIcon" className="fas fa-flask"></i>
                     View my First Quarter Project
                     </a>
@@ -107,22 +107,18 @@ class Student extends Component {
         <Row>
           <Tab.Container id="left-tabs-example" defaultActiveKey="first" className="tabs">
             <Row className="clearfix">
-              <div id="capbout">
-              <Col sm={3}>
+              <Col xs="auto" md={4}>
                 <Nav bsStyle="pills" stacked>
                   <NavItem eventKey="first" id="capstonedesc">capstone</NavItem>
                   <NavItem eventKey="second" id="aboutme">about me</NavItem>
                 </Nav>
               </Col>
-              <div id="aboutcap">
-              <Col sm={8}>
+              <Col xs="auto" md={7} className="floatThis">
                 <Tab.Content animation>
                   <Tab.Pane eventKey="first">{this.student.capstonedesc}</Tab.Pane>
                   <Tab.Pane eventKey="second">{this.student.bio}</Tab.Pane>
                 </Tab.Content>
               </Col>
-            </div>
-            </div>
 
             </Row>
           </Tab.Container>
