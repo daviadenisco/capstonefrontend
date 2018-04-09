@@ -193,49 +193,54 @@ a#studentName {
   margin: 0;
 }
 
+Tab {
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+
+}
+
 /* tabs for capstone desc and bio */
-.tabs {
+/* .tabs {
   width: 100%;
   height: auto;
   text-align: justify;
   margin: 0;
   padding-top: 18px;
-}
+} */
 
 /* tabs for capstone desc and bio */
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+/* .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   background-color: #47B6C4;
   letter-spacing: 1px;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-size: 1.4em;
   text-align: center;
-}
+} */
 
-.nav-pills>li {
+/* .nav-pills>li {
   margin-bottom: 18px;
-}
+} */
 
 /* tabs for capstone desc and bio */
-a:hover {
+/* a:hover {
   color: #47B6C4;
   margin: 0;
-}
+} */
 
 /* tabs for capstone desc and bio */
-li a {
+/* li a {
   color: #47B6C4;
   letter-spacing: 1px;
   font-size: 1.4em;
   text-align: center;
   border: 1px solid #c5e8ec;
-  /* margin-left: 20px; */
-}
+  margin-left: 20px;
+} */
 
 /* tabs for capstone desc and bio */
-#left-tabs-example-pane-first {
+/* #left-tabs-example-pane-first {
   margin-left: 30px;
   padding: 0;
-}
+} */
 
 /* github, linkedin, email icons on each card */
 #cardIcon {
@@ -271,54 +276,99 @@ div#grid.container {
   text-align: center;
 }
 
-#left-tabs-example > div.floatThis.col-md-7.col-xs-auto {
-  margin-left:10px;
-  margin-right: 0;
-  padding:0;
-}
-#left-tabs-example > div.floatThis.col-md-7.col-xs-auto > div {
-  margin:0;
-  padding:0
-}
-
-#left-tabs-example-pane-first {
-  margin: 0;
-  padding:0;
+#projectIconGradCap {
+  font-size: 2em;
+  color: #F58F32;
+  opacity: 0.95;
+  margin-right: 16px;
+  margin-top: 0.5em;
+  margin-left: 1em;
 }
 
-#left-tabs-example-pane-second {
-  margin: 0;
-  padding:0;
-}
-#left-tabs-example {
-  width: 100%;
+#projectIconGradCap:hover {
+  transition: color 0.5s ease;
+  color: #47B6C4;
 }
 
-.floatThis {
-  float:left;
+#projectRowTop > a {
+  margin-top: 1em;
+  color: #333333;
+  text-decoration: none;
+  vertical-align:middle;
 }
 
-#projectIcon {
+#projectRowTop > a:hover {
+  color: #043B4B;
+  text-decoration: underline;
+}
+
+#projectIconReact {
+  font-size: 2em;
+  color: #F58F32;
+  opacity: 0.95;
+  margin-right: 18px;
+  margin-left: 1em;
+}
+
+#projectIconReact:hover {
+  transition: color 0.5s ease;
+  color: #47B6C4;
+}
+
+#projectIconDb {
   font-size: 2em;
   color: #F58F32;
   opacity: 0.95;
   margin-right: 20px;
+  margin-left: 1em;
 }
 
-#projectIcon:hover {
+#projectIconDb:hover {
   transition: color 0.5s ease;
-  color: #793451;
+  color: #47B6C4;
 }
 
-#projectRow {
-  margin: 1em;
+#projectIconFlask {
+  font-size: 2em;
+  color: #F58F32;
+  opacity: 0.95;
+  margin-right: 20px;
+  margin-left: 1em;
+}
+
+#projectIconFlask:hover {
+  transition: color 0.5s ease;
+  color: #47B6C4;
+}
+
+#projectRowTop {
+  margin: 0.85em;
   text-align: left;
+}
+
+#projectRowReact {
+  margin: 1.2em;
+  text-align: left;
+}
+
+#projectRowDb {
+  margin: 1.3em;
+  text-align: left;
+}
+
+#projectRowBottom {
+  margin: 1.3em;
+  text-align: left;
+  margin-bottom: 3em;
 }
 
 .row {
   margin: 0;
   padding: 0;
 }
+
+
+
 /* ---------------------------- */
        /* footer stuff */
 /* ---------------------------- */

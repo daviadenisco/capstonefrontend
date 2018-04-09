@@ -24,7 +24,8 @@ class ControlledTabs extends React.Component {
           {student.capstonedesc}
         </Tab>
         <Tab eventKey={2} title="About Me">
-          {student.bio}
+          {/* <p>{student.personalsite}</p> and other stuff too
+          <p>{student.personalsite}</p> */}
         </Tab>
       </Tabs>
     );

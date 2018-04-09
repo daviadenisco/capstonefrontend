@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tab, Row, Col, Nav, NavItem, Jumbotron, Grid } from 'react-bootstrap';
+import { Tab, Row, Col, Nav, NavItem, Jumbotron, Grid, Tabs } from 'react-bootstrap';
 import '../App.css';
 var json = require('./json.js').json;
 
@@ -74,27 +74,27 @@ class Student extends Component {
             <Grid>
               <Row>
                 <Col xs={6} md={4}>
-                  <Row id="projectRow">
+                  <Row id="projectRowTop">
                     <a href={this.student.capstonelink} target="_blank">
-                      <i id="projectIcon" className="fas fa-graduation-cap"></i>
+                      <i id="projectIconGradCap" className="fal fa-graduation-cap"></i>
                       View my Capstone Project
                     </a>
                   </Row>
-                  <Row id="projectRow">
+                  <Row id="projectRowReact">
                     <a href={this.student.q3project} target="_blank">
-                      <i id="projectIcon" className="fab fa-react"></i>
+                      <i id="projectIconReact" className="fab fa-react"></i>
                       View my Third Quarter Project
                     </a>
                   </Row>
-                  <Row id="projectRow">
+                  <Row id="projectRowDb">
                     <a href={this.student.q2project} target="_blank">
-                      <i id="projectIcon" className="fas fa-database"></i>
+                      <i id="projectIconDb" className="fal fa-database"></i>
                       View my Second Quarter Project
                     </a>
                   </Row>
-                  <Row id="projectRow">
+                  <Row id="projectRowBottom">
                     <a href={this.student.q1project} target="_blank">
-                      <i id="projectIcon" className="fas fa-flask"></i>
+                      <i id="projectIconFlask" className="fal fa-flask"></i>
                     View my First Quarter Project
                     </a>
                   </Row>
@@ -104,23 +104,14 @@ class Student extends Component {
             </Col>
         </Row>
         <Row>
-          <Tab.Container id="left-tabs-example" defaultActiveKey="first" className="tabs">
-            <Row className="clearfix">
-              <Col xs="auto" md={4}>
-                <Nav bsStyle="pills" stacked>
-                  <NavItem eventKey="first" id="capstonedesc">capstone</NavItem>
-                  <NavItem eventKey="second" id="aboutme">about me</NavItem>
-                </Nav>
-              </Col>
-              <Col xs="auto" md={7} className="floatThis">
-                <Tab.Content animation>
-                  <Tab.Pane eventKey="first">{this.student.capstonedesc}</Tab.Pane>
-                  <Tab.Pane eventKey="second">{this.student.bio}</Tab.Pane>
-                </Tab.Content>
-              </Col>
-
-            </Row>
-          </Tab.Container>
+          <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
+            <Tab eventKey={1} title="About Me">
+              {this.student.bio}
+            </Tab>
+            <Tab eventKey={2} title="Capstone Description">
+              {this.student.capstondesc}
+            </Tab>
+          </Tabs>
         </Row>
       </Grid>
     </div>
