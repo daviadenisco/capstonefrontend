@@ -46,7 +46,7 @@ var json = [{
   id: 3,
   headshot: "https://i.imgur.com/Biu7y7z.png",
   fullname: "Don Tamayo",
-  github: "https://github.com/webbydon29",
+  github: "https://github.com/dontamayo",
   linkedin: "https://www.linkedin.com/in/don-aldrich-tamayo-2b0204132/",
   email: "mailto:amazingmardon@gmail.com",
   personalsite: "https://resume-viewer2018.herokuapp.com/",

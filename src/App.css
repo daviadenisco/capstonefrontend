@@ -74,11 +74,6 @@ body {
   margin: 0 auto;
 }
 
-#studentBody {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 #studentImages {
   display: block;
   max-width: 100%;
@@ -209,9 +204,8 @@ Tab {
 /* whole card layout */
 
 div#grid.container {
-  width: 65%;
-  height: auto;
-  margin-top: 5em;
+  /* width: 65%;
+  height: auto; */
 }
 
 #grid > div.imageRow {
