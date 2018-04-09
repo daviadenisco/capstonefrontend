@@ -34,36 +34,7 @@ body {
 }
 
 .galvanize-logo {
-  padding-top: 0.5em;
-  margin: 0;
-}
-
-/* rsvp */
-.btn.btn-link {
-  padding: 0;
-}
-
-/* rsvp */
-ul li a #button {
-  color: #F58F32;
-  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
-  font-weight: 300;
-  font-size: 1.2em;
-  letter-spacing: 1.1px;
-  -webkit-transform:scale(0.93, 1.0);
-  -moz-transform:scale(0.93, 1.0);
-  -ms-transform:scale(0.93, 1.0);
-  -o-transform:scale(0.93, 1.0);
-  transform:scale(0.93,1.0);
-  margin: 0;
-}
-
-#button > a {
-  border: none;
-}
-/* rsvp */
-#nav > nav > div > div.navbar-collapse.collapse > ul.nav.navbar-nav.navbar-right > li > a{
-  border: none;
+  padding-top: 0.35em;
   margin: 0;
 }
 
@@ -71,33 +42,22 @@ ul li a #button {
   border: none;
 }
 
-/* rsvp */
-/* #button:hover {
-  text-decoration: none;
-  margin: 0;
+#nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button {
+  background-color: #F58F32;
+  border: none;
+  margin-top: 15px;
+  letter-spacing: 1px;
 }
 
-.rsvp-logo {
-  width: 2.16em;
-  height: 0.8em;
-}
-
-#button > a > img {
-  margin-top: 8px;
-} */
-
-#button > img {
-  margin-top: 16px;
-  width: 3.4em;
-  height: 1.4em;
-  text-decoration: none;
+#nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button:hover {
+  border: 1px solid white;
 }
 /* ---------------------------- */
       /* Meet the Students*/
 /* ---------------------------- */
 
 .meetTheStudentsHeader {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-top: 2.25em;
   margin-bottom: 2.25em;
   text-align: center;
@@ -114,37 +74,24 @@ ul li a #button {
   margin: 0 auto;
 }
 
-#allStudents {
-  /* width: 75%;
-  margin: 0 auto;
-  padding: 0; */
-}
-
 #studentBody {
   margin-left: 50px;
   margin-right: 50px;
 }
 
-* {
-  /* box-sizing: content-box;
-  margin: 0; */
-}
-
 #studentImages {
   display: block;
   max-width: 100%;
-  width: 15em;
   height: auto;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-weight: normal;
   font-size: 1.5em;
   text-align: center;
-  /* float: left; */
   margin: 1em auto;
 }
 
 #roundimg {
-  width: 13.5em;
+  width: 12em;
   max-width: 100%;
   height: auto;
   -webkit-border-radius: 99em;
@@ -165,7 +112,7 @@ ul li a #button {
 }
 
 a#studentName {
-  font-size: 1em;
+  font-size: 1.1em;
   color: #333333;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   letter-spacing: 0.75px;

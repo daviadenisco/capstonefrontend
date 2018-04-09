@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, NavItem, Nav, Button, MenuItem } from 'react-bootstrap';
+import { Navbar, NavItem, Nav, Button, ButtonToolbar } from 'react-bootstrap';
 import '../App.css';
 import galvanize from '../images/galvanize-logo.svg';
 import rsvp from '../images/rsvp.png';
@@ -17,24 +17,15 @@ const NavBar = () =>
   </Navbar.Header>
   <Navbar.Collapse>
     <Nav pullRight>
-      <NavItem eventKey={1} className='rsvp' id="button" href="https://www.eventbrite.com/e/galvanize-nyc-web-development-capstone-showcase-tickets-44481279705?aff=erelexpmlt" target="_blank" rel="noopener noreferrer">
-        <img className="rsvp-logo" src={rsvp} alt="rsvp" width="150px" responsive></img>
-        <Navbar.Toggle />
-
-      </NavItem>
+      <div>
+        <ButtonToolbar>
+          <Button bsStyle="primary" bsSize="large">
+            RSVP
+          </Button>
+        </ButtonToolbar>
+      </div>
     </Nav>
   </Navbar.Collapse>
   </Navbar>;
 
 export default NavBar;
-
-{/* <Navbar.Collapse>
-  <Nav pullRight>
-    <NavItem eventKey={1} className='rsvp' id="button" href="https://www.eventbrite.com/e/galvanize-nyc-web-development-capstone-showcase-tickets-44481279705?aff=erelexpmlt" target="_blank" rel="noopener noreferrer">
-      <img className="rsvp-logo" src={rsvp} alt="rsvp" width="150px" responsive></img>
-      <Navbar.Toggle />
-
-    </NavItem>
-  </Nav>
-</Navbar.Collapse>
-</Navbar>; */}
