@@ -60,7 +60,6 @@ ul li a #button {
 
 /* rsvp */
 #nav > nav > div > div.navbar-collapse.collapse > ul.nav.navbar-nav.navbar-right > li > a{
-  /* border: 2px solid rgba(0, 0, 0, 0); */
   border: none;
   margin: 0;
 }
@@ -88,12 +87,9 @@ ul li a #button {
   font-weight: 300;
   letter-spacing: 0.25px;
   opacity: 0.9;
-  color: #793451;
   width: 100%;
   height: auto;
   position: relative;
-  background-color: white;
-  text-transform: uppercase;
 }
 
 #meetTheStudentsDiv {
@@ -102,30 +98,23 @@ ul li a #button {
 }
 
 #allStudents {
-  width: 75%;
+  /* width: 75%;
   margin: 0 auto;
-  padding: 0;
+  padding: 0; */
 }
 
 #studentBody {
-  width: 100%;
-  height: auto;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%; */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 * {
-  box-sizing: content-box;
-  margin: 0;
+  /* box-sizing: content-box;
+  margin: 0; */
 }
 
 #studentImages {
-  display: inline;
+  display: block;
   max-width: 100%;
   width: 15em;
   height: auto;
@@ -133,8 +122,8 @@ ul li a #button {
   font-weight: normal;
   font-size: 1.5em;
   text-align: center;
-  float: left;
-  margin: 1em;
+  /* float: left; */
+  margin: 1em auto;
 }
 
 #roundimg {
@@ -162,14 +151,15 @@ a#studentName {
   font-size: 1em;
   color: #333333;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.75px;
   -webkit-transform:scale(0.95, 1.0);
   -moz-transform:scale(0.95, 1.0);
   -ms-transform:scale(0.95, 1.0);
   -o-transform:scale(0.95, 1.0);
   transform:scale(0.95,1.0);
   font-weight: 300;
-  margin: 0;
+  margin-top: 1em;
+  display: block;
 }
 
 #studentName:hover #studentName:visited #studentName:link #studentName:active {
@@ -190,48 +180,44 @@ a#studentName {
 .tabs {
   width: 100%;
   height: auto;
-  bottom: 0;
-  word-wrap: none;
   text-align: justify;
   margin: 0;
+  padding-top: 18px;
 }
 
 /* tabs for capstone desc and bio */
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   background-color: #47B6C4;
-  color: whitesmoke;
   letter-spacing: 1px;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-size: 1.4em;
   text-align: center;
-  margin: 0;
+}
+
+.nav-pills>li {
+  margin-bottom: 18px;
 }
 
 /* tabs for capstone desc and bio */
 a:hover {
   color: #47B6C4;
-  /* color: #793451; */
   margin: 0;
 }
 
 /* tabs for capstone desc and bio */
 li a {
   color: #47B6C4;
-  /* color: #793451; */
   letter-spacing: 1px;
   font-size: 1.4em;
   text-align: center;
   border: 1px solid #c5e8ec;
-  margin: 0;
+  /* margin-left: 20px; */
 }
 
 /* tabs for capstone desc and bio */
-.row {
-  margin: 0;
+#left-tabs-example-pane-first {
   padding: 0;
 }
-
-/* tabs for capstone desc and bio */
 
 /* github, linkedin, email icons on each card */
 #cardIcon {
@@ -247,7 +233,6 @@ li a {
 
 /* whole card layout */
 #grid {
-  /* border: 1px solid red; */
   background-color: white;
 }
 
@@ -259,12 +244,36 @@ div#grid.container {
   margin-top: 5em;
 }
 
-#grid > div.imageRow.row {
+#grid > div.imageRow {
   margin-top: 2em;
+  margin-left: 2px;
 }
 
-#grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+#grid > div.imageRow > div.col-md-6.col-md-pull-6 {
   text-align: center;
+}
+
+#left-tabs-example > div.floatThis.col-md-7.col-xs-auto {
+  margin-left:10px;
+  margin-right: 0;
+  padding:0;
+}
+#left-tabs-example > div.floatThis.col-md-7.col-xs-auto > div {
+  margin:0;
+  padding:0
+}
+
+#left-tabs-example-pane-first {
+  margin: 0;
+  padding:0;
+}
+
+#left-tabs-example-pane-second {
+  margin: 0;
+  padding:0;
+}
+#left-tabs-example {
+  width: 100%;
 }
 
 .floatThis {
@@ -275,6 +284,7 @@ div#grid.container {
   font-size: 2em;
   color: #F58F32;
   opacity: 0.95;
+  margin-right: 20px;
 }
 
 #projectIcon:hover {
@@ -287,6 +297,10 @@ div#grid.container {
   text-align: left;
 }
 
+.row {
+  margin: 0;
+  padding: 0;
+}
 /* ---------------------------- */
        /* footer stuff */
 /* ---------------------------- */

@@ -60,7 +60,6 @@ class Student extends Component {
                   <h1 id="studentNameDetail">{this.student.fullname}</h1>
                 </div>
               </Row>
-              <br></br>
             <Row id="contactRow">
               <a href={this.student.linkedin} target="_blank" id="studentIcons">
                 <i id="cardIcon" className="fab fa-linkedin fa-2x fa-fw"></i>
