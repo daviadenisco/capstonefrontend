@@ -23,7 +23,9 @@ const NavBar = () =>
       {/* <NavItem eventKey={1} href="https://www.eventbrite.com/d/ny--new-york/galvanize/?q=galvanize&loc=New+York%2C+NY&date=" target="_blank" rel="noopener noreferrer">
         <img className="eventbrite-logo" src={eventbrite} title="RSVP" alt="rsvp" responsive/> */}
         <Button bsStyle="link" className='rsvp' id="button">
-          <img className="rsvp-logo" src={rsvp} alt="rsvp" width="150px" responsive></img>
+          <a href="https://www.eventbrite.com/e/galvanize-nyc-web-development-capstone-showcase-tickets-44481279705?aff=erelexpmlt">
+            <img className="rsvp-logo" src={rsvp} alt="rsvp" width="150px" responsive></img>
+          </a>
         </Button>
 
       </NavItem>

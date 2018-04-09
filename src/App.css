@@ -48,7 +48,7 @@ ul li a #button {
   color: #F58F32;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-weight: 300;
-  font-size: 1.8em;
+  font-size: 1.2em;
   letter-spacing: 1.1px;
   -webkit-transform:scale(0.93, 1.0);
   -moz-transform:scale(0.93, 1.0);
@@ -58,6 +58,9 @@ ul li a #button {
   margin: 0;
 }
 
+#button > a {
+  border: none;
+}
 /* rsvp */
 #nav > nav > div > div.navbar-collapse.collapse > ul.nav.navbar-nav.navbar-right > li > a{
   border: none;
@@ -75,6 +78,9 @@ ul li a #button {
   height: 0.8em;
 }
 
+#button > a > img {
+  margin-top: 8px;
+}
 /* ---------------------------- */
       /* Meet the Students*/
 /* ---------------------------- */

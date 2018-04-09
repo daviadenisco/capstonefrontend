@@ -6,7 +6,7 @@ var json = [{
   linkedin: "https://www.linkedin.com/in/davia-denisco-2889317",
   email: "mailto:davia@daviadenisco.com",
   personalsite: "http://www.daviadenisco.com/",
-  capstonelink: "https://g72bestwebdevs.herokuapp.com/",
+  capstonelink: "https://galvanizestudentgallery.herokuapp.com/",
   capstonedesc: "For my capstone project, I created this app that you're using right now. The idea came about when I saw the opportunity to streamline the communications and guest experience for the capstone showcase by making a student gallery for users to preview and browse projects before, during, and after the event.",
   q1project: "http://www.daviadenisco.com/snake/",
   q2project: "https://techtionary.herokuapp.com/",
