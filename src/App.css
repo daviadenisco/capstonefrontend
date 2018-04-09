@@ -67,8 +67,12 @@ ul li a #button {
   margin: 0;
 }
 
+#nav > nav {
+  border: none;
+}
+
 /* rsvp */
-#button:hover {
+/* #button:hover {
   text-decoration: none;
   margin: 0;
 }
@@ -80,6 +84,13 @@ ul li a #button {
 
 #button > a > img {
   margin-top: 8px;
+} */
+
+#button > img {
+  margin-top: 16px;
+  width: 3.4em;
+  height: 1.4em;
+  text-decoration: none;
 }
 /* ---------------------------- */
       /* Meet the Students*/
