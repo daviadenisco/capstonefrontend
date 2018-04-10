@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tab, Row, Col, Nav, NavItem, Jumbotron, Grid, Tabs } from 'react-bootstrap';
+import { Tab, Row, Col, Nav, NavItem, Jumbotron, Grid, Tabs, Button } from 'react-bootstrap';
 import '../App.css';
 var json = require('./json.js').json;
 
@@ -27,6 +27,13 @@ class Student extends Component {
     this.setState({student: matchStudent, loading: false})
     // setTimeout(() => , 3000);
   }
+  // getNextPage() {
+  //   var appLink = "https://galvanizestudentgallery.herokuapp.com/student/";
+  //   for(var i = ; i < json.length; i++) {
+  //     appLink += i;
+  //   }
+  //   return handleClick(appLink);
+  // }
   componentWillMount() {
     this.getstudentinfo();
   }
