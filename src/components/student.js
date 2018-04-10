@@ -109,7 +109,7 @@ class Student extends Component {
               {this.student.bio}
             </Tab>
             <Tab eventKey={2} title="Capstone Description">
-              {this.student.capstondesc}
+              {this.student.capstonedesc}
             </Tab>
           </Tabs>
         </Row>

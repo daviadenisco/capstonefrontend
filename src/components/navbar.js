@@ -20,7 +20,8 @@ const NavBar = () =>
       <div>
         <ButtonToolbar>
           <Button bsStyle="xsmall">
-            rsvp
+            <a href="https://www.eventbrite.com/e/galvanize-nyc-web-development-capstone-showcase-tickets-44481279705">
+            rsvp</a>
           </Button>
         </ButtonToolbar>
       </div>

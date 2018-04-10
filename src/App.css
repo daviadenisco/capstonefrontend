@@ -59,8 +59,12 @@ body {
   padding-bottom: 3px;
 }
 
+#nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button > a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
 #nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button:hover {
-  border: 1px solid white;
+  border: 1px solid #f2f2f2;
 }
 
 #root > div > div {
@@ -160,39 +164,71 @@ a#studentName {
 }
 
 /* tabs for capstone desc and bio */
-/* .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  background-color: #47B6C4;
-  letter-spacing: 1px;
+#uncontrolled-tab-example-pane-1 {
+  letter-spacing: 0.5px;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
-  font-size: 1.4em;
-  text-align: center;
-} */
+  font-size: 13px;
+  text-align: justify;
+  margin-left: 4em;
+  margin-top: 2em;
+  margin-bottom: 3em;
+  margin-right: 4em;
+}
 
-/* .nav-pills>li {
-  margin-bottom: 18px;
-} */
+#uncontrolled-tab-example-pane-2 {
+  letter-spacing: 0.5px;
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 13px;
+  text-align: justify;
+  margin-left: 4em;
+  margin-top: 2em;
+  margin-bottom: 3em;
+  margin-right: 4em;
+}
 
-/* tabs for capstone desc and bio */
-/* a:hover {
+#uncontrolled-tab-example-tab-1 {
+  letter-spacing: 0.5px;
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.2em;
+  text-align: justified;
+  color: #333333;
+  margin-left: 2.5em;
+}
+
+#uncontrolled-tab-example-tab-1:hover {
   color: #47B6C4;
-  margin: 0;
-} */
+  background-color: #fef2e7;
+  /* color: #F58F32; */
+  /* galvanize aqua color: #47B6C4;*/
+}
 
-/* tabs for capstone desc and bio */
-/* li a {
+li.active #uncontrolled-tab-example-tab-1{
+  /* background-color: #c5e8ec; */
+  /* color: #F58F32; */
   color: #47B6C4;
-  letter-spacing: 1px;
-  font-size: 1.4em;
-  text-align: center;
-  border: 1px solid #c5e8ec;
-  margin-left: 20px;
-} */
+  /* galvanize aqua color: #47B6C4;*/
+}
 
-/* tabs for capstone desc and bio */
-/* #left-tabs-example-pane-first {
-  margin-left: 30px;
-  padding: 0;
-} */
+#uncontrolled-tab-example-tab-2 {
+  letter-spacing: 0.5px;
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 1.2em;
+  text-align: justified;
+  color: #333333;
+}
+
+#uncontrolled-tab-example-tab-2:hover {
+  /* color: #F58F32; */
+  background-color: #fef2e7;
+  color: #47B6C4;
+}
+
+li.active #uncontrolled-tab-example-tab-2{
+  /* background-color: #c5e8ec; */
+  /* color: #F58F32; */
+  color: #47B6C4;
+  /* galvanize aqua color: #47B6C4;*/
+}
 
 /* github, linkedin, email icons on each card */
 #cardIcon {
@@ -227,7 +263,7 @@ a#studentName {
 
 #grid {
   width: 100%;
-  padding-bottom: 10em;
+  margin-bottom: 2.5em;
 }
 
 #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
@@ -235,7 +271,7 @@ a#studentName {
 }
 
 #projectIconGradCap {
-  font-size: 2em;
+  font-size: 1.9em;
   color: #F58F32;
   opacity: 0.95;
   margin-right: 16px;
@@ -253,6 +289,8 @@ a#studentName {
   color: #333333;
   text-decoration: none;
   vertical-align:middle;
+  font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
 #projectRowTop > a:hover {
@@ -260,44 +298,8 @@ a#studentName {
   text-decoration: underline;
 }
 
-#projectRowReact > a {
-  margin-top: 1em;
-  color: #333333;
-  text-decoration: none;
-  vertical-align:middle;
-}
-
-#projectRowReact > a:hover {
-  color: #043B4B;
-  text-decoration: underline;
-}
-
-#projectRowDb > a {
-  margin-top: 1em;
-  color: #333333;
-  text-decoration: none;
-  vertical-align:middle;
-}
-
-#projectRowDb > a:hover {
-  color: #043B4B;
-  text-decoration: underline;
-}
-
-#projectRowBottom > a {
-  margin-top: 1em;
-  color: #333333;
-  text-decoration: none;
-  vertical-align:middle;
-}
-
-#projectRowBottom > a:hover {
-  color: #043B4B;
-  text-decoration: underline;
-}
-
 #projectIconReact {
-  font-size: 2em;
+  font-size: 1.9em;
   color: #F58F32;
   opacity: 0.95;
   margin-right: 18px;
@@ -309,8 +311,23 @@ a#studentName {
   color: #47B6C4;
 }
 
+#projectRowReact > a {
+  margin-top: 1em;
+  color: #333333;
+  text-decoration: none;
+  vertical-align:middle;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+#projectRowReact > a:hover {
+  color: #043B4B;
+  text-decoration: underline;
+}
+
+
 #projectIconDb {
-  font-size: 2em;
+  font-size: 1.9em;
   color: #F58F32;
   opacity: 0.95;
   margin-right: 20px;
@@ -322,8 +339,22 @@ a#studentName {
   color: #47B6C4;
 }
 
+#projectRowDb > a {
+  margin-top: 1em;
+  color: #333333;
+  text-decoration: none;
+  vertical-align:middle;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+#projectRowDb > a:hover {
+  color: #043B4B;
+  text-decoration: underline;
+}
+
 #projectIconFlask {
-  font-size: 2em;
+  font-size: 1.9em;
   color: #F58F32;
   opacity: 0.95;
   margin-right: 20px;
@@ -333,6 +364,20 @@ a#studentName {
 #projectIconFlask:hover {
   transition: color 0.5s ease;
   color: #47B6C4;
+}
+
+#projectRowBottom > a {
+  margin-top: 1em;
+  color: #333333;
+  text-decoration: none;
+  vertical-align:middle;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+#projectRowBottom > a:hover {
+  color: #043B4B;
+  text-decoration: underline;
 }
 
 #projectRowTop {
@@ -353,7 +398,6 @@ a#studentName {
 #projectRowBottom {
   margin: 1.3em;
   text-align: left;
-  margin-bottom: 3em;
 }
 
 .row {
@@ -361,8 +405,14 @@ a#studentName {
   padding: 0;
 }
 
+#studentNameDetail {
+  font-weight: 300;
+  font-size: 2.6em;
+}
 
-
+#uncontrolled-tab-example > div {
+  margin: auto;
+}
 /* ---------------------------- */
        /* footer stuff */
 /* ---------------------------- */
