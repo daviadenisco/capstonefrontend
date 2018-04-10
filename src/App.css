@@ -692,8 +692,13 @@ li.active #uncontrolled-tab-example-tab-2{
         }
     #projectRowBottom {
               margin:0;
+              font-size: 5px;
+              margin-bottom: 20px;
             }
             #studentNameDetail {
               font-size: 30px;
+            }
+            #grid > div.imageRow.row {
+              width: 100%;
             }
 }
