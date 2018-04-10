@@ -16,6 +16,7 @@ body {
   font-weight: 300;
   background: #f2f2f2;
   margin: 0;
+  overflow: hidden;
 }
 
 /* ---------------------------- */
@@ -50,7 +51,7 @@ body {
   margin-top: 20px;
   margin-bottom: 21px;
   letter-spacing: 1px;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 300;
   color: white;
   padding: 8px;
@@ -60,6 +61,10 @@ body {
 
 #nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button:hover {
   border: 1px solid white;
+}
+
+#root > div > div {
+  margin-top: 6em;
 }
 
 /* ---------------------------- */
@@ -145,11 +150,6 @@ a#studentName {
   margin: 0;
 }
 
-Tab {
-  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
-
-}
-
 /* tabs for capstone desc and bio */
 /* .tabs {
   width: 100%;
@@ -209,17 +209,24 @@ Tab {
 /* whole card layout */
 #grid {
   background-color: white;
+  width: 75% !important;
+  height: auto;
 }
 
 /* whole card layout */
 
 #grid > div.imageRow {
-  margin-top: 2em;
-  margin-left:20px;
+  margin-top: 3em;
+  margin-right: 5em;
+  margin-left: 2.5em;
 }
 
 #grid > div.imageRow > div.col-md-6.col-md-pull-6 {
   text-align: center;
+}
+
+#grid {
+  width: 100%;
 }
 
 #projectIconGradCap {
@@ -228,7 +235,7 @@ Tab {
   opacity: 0.95;
   margin-right: 16px;
   margin-top: 0.5em;
-  margin-left: 1em;
+  margin-left: 0.35em;
 }
 
 #projectIconGradCap:hover {
@@ -248,12 +255,48 @@ Tab {
   text-decoration: underline;
 }
 
+#projectRowReact > a {
+  margin-top: 1em;
+  color: #333333;
+  text-decoration: none;
+  vertical-align:middle;
+}
+
+#projectRowReact > a:hover {
+  color: #043B4B;
+  text-decoration: underline;
+}
+
+#projectRowDb > a {
+  margin-top: 1em;
+  color: #333333;
+  text-decoration: none;
+  vertical-align:middle;
+}
+
+#projectRowDb > a:hover {
+  color: #043B4B;
+  text-decoration: underline;
+}
+
+#projectRowBottom > a {
+  margin-top: 1em;
+  color: #333333;
+  text-decoration: none;
+  vertical-align:middle;
+}
+
+#projectRowBottom > a:hover {
+  color: #043B4B;
+  text-decoration: underline;
+}
+
 #projectIconReact {
   font-size: 2em;
   color: #F58F32;
   opacity: 0.95;
   margin-right: 18px;
-  margin-left: 1em;
+  margin-left: 0.3em;
 }
 
 #projectIconReact:hover {
@@ -266,7 +309,7 @@ Tab {
   color: #F58F32;
   opacity: 0.95;
   margin-right: 20px;
-  margin-left: 1em;
+  margin-left: 0.3em;
 }
 
 #projectIconDb:hover {
@@ -279,7 +322,7 @@ Tab {
   color: #F58F32;
   opacity: 0.95;
   margin-right: 20px;
-  margin-left: 1em;
+  margin-left: 0.3em;
 }
 
 #projectIconFlask:hover {
@@ -288,7 +331,7 @@ Tab {
 }
 
 #projectRowTop {
-  margin: 0.85em;
+  margin: 0.75em;
   text-align: left;
 }
 
