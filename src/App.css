@@ -36,7 +36,7 @@ body {
 
 .galvanize-logo {
   margin: 0;
-  margin-top: 0.75em;
+  margin-top: 0.65em;
   margin-bottom: 0.2em;
 }
 
@@ -50,11 +50,11 @@ body {
   margin-top: 20px;
   margin-bottom: 21px;
   letter-spacing: 1px;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 300;
   color: white;
   padding: 8px;
-  padding-top: 1px;
+  padding-top: 0;
   padding-bottom: 3px;
 }
 
