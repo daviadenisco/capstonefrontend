@@ -16,7 +16,7 @@ body {
   font-weight: 300;
   background: #f2f2f2;
   margin: 0;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 /* ---------------------------- */
@@ -151,13 +151,13 @@ a#studentName {
 }
 
 /* tabs for capstone desc and bio */
-/* .tabs {
+.tabs {
   width: 100%;
   height: auto;
   text-align: justify;
   margin: 0;
   padding-top: 18px;
-} */
+}
 
 /* tabs for capstone desc and bio */
 /* .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
@@ -227,6 +227,11 @@ a#studentName {
 
 #grid {
   width: 100%;
+  padding-bottom: 10em;
+}
+
+#grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+  margin-left: 5em;
 }
 
 #projectIconGradCap {
