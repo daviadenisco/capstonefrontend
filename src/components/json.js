@@ -182,7 +182,7 @@ var json = [{
   linkedin: "https://www.linkedin.com/in/riley-green-aaaa2463/",
   email: "mailto:rileygreenviiiv@gmail.com",
   personalsite: "https://daviadenisco.github.io/simplecontact/",
-  capstonelink: "https://daviadenisco.github.io/simplecontact/",
+  capstonelink: "https://fabias-fabulous-fairytales.herokuapp.com/",
   capstonedesc: "Please contact Riley directly for information on his capstone project.",
   q1project: "http://diligent-dog.surge.sh/",
   q2project: "http://q2-wine-pairing.herokuapp.com/",
