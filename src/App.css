@@ -71,6 +71,20 @@ body {
   margin-top: 6em;
 }
 
+/* hamburger button border issue fixed here */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border: none;
+}
+
+#nav > nav > div > div.navbar-collapse.collapse {
+ border: none;
+}
+
+#nav > nav > div > div.navbar-header * {
+   /* -webkit-box-sizing: border-box; */
+   -moz-box-sizing: border-box;
+   /* box-sizing: border-box; */
+}
 /* ---------------------------- */
       /* Meet the Students*/
 /* ---------------------------- */
@@ -621,3 +635,92 @@ li.active #uncontrolled-tab-example-tab-2{
   color: white;
   transition: all 0.5s ease;
 } */
+
+@media only screen and (max-width: 800px) {
+    /* .container {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+      margin-right: 0;
+    } */
+    /* div #grid .container {
+      width: 100%;
+      padding-right: 0;
+      margin-right: 0;
+    } */
+    /* #grid {
+      margin: 0;
+      padding: 0;
+    } */
+    /* #grid {
+      background-color: white;
+      width: 100%;
+      height: auto;
+    } */
+
+    /* whole card layout */
+
+    /* #grid > div.imageRow {
+      margin: 0;
+    } */
+/*
+    #grid > div.imageRow > div.col-md-6.col-md-pull-6 {
+      text-align: center;
+    } */
+
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+      width: 100%;
+    }
+    /* #projectRowBottom > a:hover {
+      color: #043B4B;
+      text-decoration: underline;
+    } */
+
+    /* #projectRowTop {
+      margin-bottom: 4px;
+      text-align: left;
+      margin-left: 0;
+      padding: 0;
+
+    } */
+
+    /* #projectRowReact {
+      margin-bottom: 4px;
+      text-align: left;
+      padding: 0;
+      margin-left: 0;
+    } */
+
+    /* #projectRowDb {
+      margin-bottom: 4px;
+      text-align: left;
+      padding: 0;
+      margin-left: 0;
+    } */
+
+    /* #projectRowBottom {
+      margin-bottom: 20px;
+      text-align: left;
+      padding: 0;
+      margin-left: 0;
+
+    } */
+
+    /* #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin-left:20px;
+    } */
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+      margin-left: 50px;
+    }
+
+        #cardIcon {
+          font-size: 2em;
+          color: #47B6C4;
+          margin-bottom: 10px;
+          float: left;
+        }
+    #grid {
+      width: auto !important;
+      height: auto;
+    }
+}
