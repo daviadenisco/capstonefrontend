@@ -683,12 +683,17 @@ li.active #uncontrolled-tab-example-tab-2{
 
     #projectRowTop {
       margin:0;
+      margin-bottom: 10px;
     }
     #projectRowReact {
       margin:0;
+      margin-bottom: 10px;
+
     }
     #projectRowDb {
           margin:0;
+          margin-bottom: 10px;
+
         }
     #projectRowBottom {
               margin:0;
@@ -700,5 +705,6 @@ li.active #uncontrolled-tab-example-tab-2{
             }
             #grid > div.imageRow.row {
               width: 100%;
+              margin-left:0;
             }
 }
