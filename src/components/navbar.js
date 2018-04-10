@@ -19,8 +19,8 @@ const NavBar = () =>
     <Nav pullRight>
       <div>
         <ButtonToolbar>
-          <Button bsStyle="primary" bsSize="large">
-            RSVP
+          <Button bsStyle="xsmall">
+            rsvp
           </Button>
         </ButtonToolbar>
       </div>

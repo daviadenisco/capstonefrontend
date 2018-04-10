@@ -31,11 +31,13 @@ body {
   border-radius: 0;
   background: #043B4B;
   margin: 0;
+  height: 6em;
 }
 
 .galvanize-logo {
-  padding-top: 0.35em;
   margin: 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.2em;
 }
 
 #nav > nav {
@@ -45,13 +47,21 @@ body {
 #nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button {
   background-color: #F58F32;
   border: none;
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 21px;
   letter-spacing: 1px;
+  font-size: 28px;
+  font-weight: 300;
+  color: white;
+  padding: 8px;
+  padding-top: 1px;
+  padding-bottom: 3px;
 }
 
 #nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button:hover {
   border: 1px solid white;
 }
+
 /* ---------------------------- */
       /* Meet the Students*/
 /* ---------------------------- */
@@ -202,11 +212,6 @@ Tab {
 }
 
 /* whole card layout */
-
-div#grid.container {
-  /* width: 65%;
-  height: auto; */
-}
 
 #grid > div.imageRow {
   margin-top: 2em;
