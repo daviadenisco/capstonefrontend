@@ -11,7 +11,7 @@ var json = [{
   q1project: "http://www.daviadenisco.com/snake/",
   q2project: "https://techtionary.herokuapp.com/",
   q3project: "https://g72bestwebdevs.herokuapp.com/",
-  bio: "I'm a software engineer based in New York City, having recently graduated from Galvanize. Before pursuing coding, I worked in event management for The Estée Lauder Companies and for The Open Society Foundations. I'm currently looking for a full-time position as a software engineer. In the meantime, I'm working on several freelance projects and will soon be teaching an intro to HTML, CSS, and JavaScript class. In my free time, I like to rescue cats, kiss wolves, and hike across volcanoes.",
+  bio: "I'm a software engineer based in New York City. Before pursuing coding, I worked in event management for The Estée Lauder Companies and for The Open Society Foundations. I'm currently looking for a full-time position as a software engineer. In the meantime, I'm working on several freelance projects and will soon be teaching an intro to HTML, CSS, and JavaScript class. In my free time, I like to rescue cats, kiss wolves, and hike across volcanoes.",
   funfact: "I once found a message in a bottle on a beach.",
   funpic: "https://imgur.com/FSdo8WG",
   requestresume: "mailto:davia@daviadenisco.com?subject=Resume request&body=Hi, I saw your capstone profile and would like to view your resume. Could you please send it to me? Thanks!",
