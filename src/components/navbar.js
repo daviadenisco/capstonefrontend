@@ -20,7 +20,7 @@ const NavBar = () =>
       <div>
         <ButtonToolbar>
           <Button bsStyle="xsmall">
-            <a href="https://www.eventbrite.com/e/galvanize-nyc-web-development-capstone-showcase-tickets-44481279705">
+            <a href="https://www.eventbrite.com/e/galvanize-nyc-web-development-capstone-showcase-tickets-44481279705" target="_blank">
             rsvp</a>
           </Button>
         </ButtonToolbar>
