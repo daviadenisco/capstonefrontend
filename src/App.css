@@ -41,8 +41,25 @@ body {
   margin-bottom: 0.2em;
 }
 
+.home {
+  color: white;
+  margin-top: 20px;
+  padding-left: 50px;
+}
+
 #nav > nav {
   border: none;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav>li>a {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 0;
+  margin-top: 28px;
+  padding-left: 0;
 }
 
 #nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button {
@@ -232,16 +249,12 @@ li.active #uncontrolled-tab-example-tab-1{
 }
 
 #uncontrolled-tab-example-tab-2:hover {
-  /* color: #F58F32; */
   background-color: #fef2e7;
   color: #47B6C4;
 }
 
 li.active #uncontrolled-tab-example-tab-2{
-  /* background-color: #c5e8ec; */
-  /* color: #F58F32; */
   color: #47B6C4;
-  /* galvanize aqua color: #47B6C4;*/
 }
 
 /* github, linkedin, email icons on each card */
@@ -288,9 +301,9 @@ li.active #uncontrolled-tab-example-tab-2{
   font-size: 1.9em;
   color: #F58F32;
   opacity: 0.95;
-  margin-right: 16px;
+  margin-right: 15px;
   margin-top: 0.5em;
-  margin-left: 0.35em;
+  margin-left: 0.4em;
 }
 
 #projectIconGradCap:hover {
@@ -426,6 +439,15 @@ li.active #uncontrolled-tab-example-tab-2{
 
 #uncontrolled-tab-example > div {
   margin: auto;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 /* ---------------------------- */
        /* footer stuff */
@@ -636,6 +658,635 @@ li.active #uncontrolled-tab-example-tab-2{
   transition: all 0.5s ease;
 } */
 
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+          width: 100%;
+        }
+
+        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+          margin: 0;
+          width: 100%;
+        }
+
+        #cardIcon {
+          margin: 10px;
+        }
+
+        body {
+          background-color: white;
+        }
+
+        #grid {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          background-color: white;
+        }
+
+        div #grid .container {
+          width: 200%;
+          margin: 0;
+          padding: 0;
+        }
+
+        #projectRowTop {
+          margin: 0;
+          padding: 0;
+          margin-left: -30px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowReact {
+          margin: 0;
+          margin-left: -25px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowDb {
+          margin: 0;
+          margin-left: -23px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowBottom {
+          margin: 0;
+          font-size: 5px;
+          margin-left: -23px;
+          margin-bottom: 20px;
+        }
+
+        #studentNameDetail {
+          font-size: 30px;
+          margin-top: 100px;
+          text-align: left;
+       }
+
+        #grid > div.imageRow.row {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        #uncontrolled-tab-example-tab-1 {
+          font-size: 1em;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+          padding: 8px;
+
+        }
+
+        #uncontrolled-tab-example-tab-2 {
+          font-size: 1em;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+          margin-left: 10px;
+          padding: 8px;
+        }
+
+        .tab-content>.active {
+          margin: 0;
+          padding: 0;
+        }
+
+        #uncontrolled-tab-example-pane-1 {
+          margin: 10px;
+          width: 116%;
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+
+        #uncontrolled-tab-example-pane-2 {
+          margin: 10px;
+          width: 116%;
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+
+        #contactRow {
+          margin: 0;
+          padding: 0;
+          margin-left: -94px;
+        }
+
+        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+          margin-left: 85px;
+        }
+        #grid {
+          width: 200%;
+          padding: 0;
+          margin:0;
+        }
+        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+          margin: 0;
+          width: 150px;
+          margin-top: -90px;
+          margin-left: 30px;
+          margin-bottom: -10px;
+          padding: 0
+        }
+        #roundimg {
+          width: 40em;
+          height: auto;
+        }
+
+        * {
+       /* -webkit-box-sizing: border-box; */
+       -moz-box-sizing: border-box;
+       /* box-sizing: border-box; */
+        }
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+          width: 100%;
+        }
+
+        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+          margin: 0;
+          width: 100%;
+        }
+
+        #cardIcon {
+          margin: 10px;
+        }
+
+        body {
+          background-color: white;
+        }
+
+        #grid {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          background-color: white;
+        }
+
+        div #grid .container {
+          width: 200%;
+          margin: 0;
+          padding: 0;
+        }
+
+        #projectRowTop {
+          margin: 0;
+          padding: 0;
+          margin-left: -30px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowReact {
+          margin: 0;
+          margin-left: -25px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowDb {
+          margin: 0;
+          margin-left: -23px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowBottom {
+          margin: 0;
+          font-size: 5px;
+          margin-left: -23px;
+          margin-bottom: 20px;
+        }
+
+        #studentNameDetail {
+          font-size: 30px;
+          margin-top: 100px;
+          text-align: left;
+       }
+
+        #grid > div.imageRow.row {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        #uncontrolled-tab-example-tab-1 {
+          font-size: 1em;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+          padding: 8px;
+
+        }
+
+        #uncontrolled-tab-example-tab-2 {
+          font-size: 1em;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+          margin-left: 10px;
+          padding: 8px;
+        }
+
+        .tab-content>.active {
+          margin: 0;
+          padding: 0;
+        }
+
+        #uncontrolled-tab-example-pane-1 {
+          margin: 10px;
+          width: 116%;
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+
+        #uncontrolled-tab-example-pane-2 {
+          margin: 10px;
+          width: 116%;
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+
+        #contactRow {
+          margin: 0;
+          padding: 0;
+          margin-left: -286px;
+        }
+
+        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+          margin-left: 85px;
+        }
+        #grid {
+          width: 200%;
+          padding: 0;
+          margin:0;
+        }
+        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+          margin: 0;
+          width: 150px;
+          margin-top: -90px;
+          margin-left: 30px;
+          margin-bottom: -10px;
+          padding: 0
+        }
+        #roundimg {
+          width: 40em;
+          height: auto;
+        }
+
+        * {
+       /* -webkit-box-sizing: border-box; */
+       -moz-box-sizing: border-box;
+       /* box-sizing: border-box; */
+        }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 414px)
+  and (max-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-width: 414px)
+  and (max-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-width: 414px)
+  and (max-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+      width: 100%;
+    }
+
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+      margin: 0;
+      width: 100%;
+    }
+
+    #cardIcon {
+      margin: 10px;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    #grid {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: white;
+    }
+
+    div #grid .container {
+      width: 200%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #projectRowTop {
+      margin: 0;
+      padding: 0;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowReact {
+      margin: 0;
+      margin-left: -25px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowDb {
+      margin: 0;
+      margin-left: -23px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowBottom {
+      margin: 0;
+      font-size: 5px;
+      margin-left: -23px;
+      margin-bottom: 20px;
+    }
+
+    #studentNameDetail {
+      font-size: 30px;
+      margin-top: 100px;
+      text-align: left;
+   }
+
+    #grid > div.imageRow.row {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    #uncontrolled-tab-example-tab-1 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      padding: 8px;
+
+    }
+
+    #uncontrolled-tab-example-tab-2 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 10px;
+      padding: 8px;
+    }
+
+    .tab-content>.active {
+      margin: 0;
+      padding: 0;
+    }
+
+    #uncontrolled-tab-example-pane-1 {
+      margin: 10px;
+      width: 116%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #uncontrolled-tab-example-pane-2 {
+      margin: 10px;
+      width: 116%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #contactRow {
+      margin: 0;
+      padding: 0;
+      margin-left: -94px;
+    }
+
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin-left: 85px;
+    }
+    #grid {
+      width: 200%;
+      padding: 0;
+      margin:0;
+    }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin: 0;
+      width: 150px;
+      margin-top: -90px;
+      margin-left: 30px;
+      margin-bottom: -10px;
+      padding: 0
+    }
+    #roundimg {
+      width: 40em;
+      height: auto;
+    }
+
+    * {
+   /* -webkit-box-sizing: border-box; */
+   -moz-box-sizing: border-box;
+   /* box-sizing: border-box; */
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+          width: 100%;
+        }
+
+        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+          margin: 0;
+          width: 100%;
+        }
+
+        #cardIcon {
+          margin: 10px;
+        }
+
+        body {
+          background-color: white;
+        }
+
+        #grid {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          background-color: white;
+        }
+
+        div #grid .container {
+          width: 200%;
+          margin: 0;
+          padding: 0;
+        }
+
+        #projectRowTop {
+          margin: 0;
+          padding: 0;
+          margin-left: -30px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowReact {
+          margin: 0;
+          margin-left: -25px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowDb {
+          margin: 0;
+          margin-left: -23px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowBottom {
+          margin: 0;
+          font-size: 5px;
+          margin-left: -23px;
+          margin-bottom: 20px;
+        }
+
+        #studentNameDetail {
+          font-size: 30px;
+          margin-top: 100px;
+          text-align: left;
+       }
+
+        #grid > div.imageRow.row {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        #uncontrolled-tab-example-tab-1 {
+          font-size: 1em;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+          padding: 8px;
+
+        }
+
+        #uncontrolled-tab-example-tab-2 {
+          font-size: 1em;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+          margin-left: 10px;
+          padding: 8px;
+        }
+
+        .tab-content>.active {
+          margin: 0;
+          padding: 0;
+        }
+
+        #uncontrolled-tab-example-pane-1 {
+          margin: 10px;
+          width: 116%;
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+
+        #uncontrolled-tab-example-pane-2 {
+          margin: 10px;
+          width: 116%;
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+
+        #contactRow {
+          margin: 0;
+          padding: 0;
+          margin-left: -340px;
+        }
+
+        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+          margin-left: 85px;
+        }
+        #grid {
+          width: 200%;
+          padding: 0;
+          margin:0;
+        }
+        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+          margin: 0;
+          width: 150px;
+          margin-top: -90px;
+          margin-left: 30px;
+          margin-bottom: -10px;
+          padding: 0
+        }
+        #roundimg {
+          width: 40em;
+          height: auto;
+        }
+
+        * {
+       /* -webkit-box-sizing: border-box; */
+       -moz-box-sizing: border-box;
+       /* box-sizing: border-box; */
+        }
+}
 @media only screen and (max-width: 800px) {
 
     #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
@@ -653,58 +1304,66 @@ li.active #uncontrolled-tab-example-tab-2{
       float: left;
     }
 
+    #contactRow {
+      margin-left: -20px;
+    }
+
     #grid {
       width: auto !important;
       height: auto;
     }
-}
 
-@media only screen and (max-width: 600px) {
-
-    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
-      width: 100%;
-    }
-
-    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
-      margin:0;
-    }
-
-    #cardIcon {
-      font-size: 2em;
-      color: #47B6C4;
+    #projectRowTop {
+      margin: 0;
+      padding: 0;
+      margin-left: -85px;
       margin-bottom: 10px;
-      float: left;
     }
 
-    #grid {
+    #projectRowReact {
+      margin: 0;
+      margin-left: -79px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowDb {
+      margin: 0;
+      margin-left: -78px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowBottom {
+      margin: 0;
+      font-size: 5px;
+      margin-left: -78px;
+      margin-bottom: 20px;
+    }
+
+    #studentNameDetail {
       margin: 0;
       padding: 0;
     }
 
-    #projectRowTop {
-      margin:0;
-      margin-bottom: 10px;
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin: 20px;
+      margin-top: -80px;
     }
-    #projectRowReact {
-      margin:0;
-      margin-bottom: 10px;
 
+    #uncontrolled-tab-example-pane-1 {
+      margin: 10px;
+      width: 90%;
+      margin-left: 20px;
+      margin-top: 20px;
     }
-    #projectRowDb {
-          margin:0;
-          margin-bottom: 10px;
 
-        }
-    #projectRowBottom {
-              margin:0;
-              font-size: 5px;
-              margin-bottom: 20px;
-            }
-            #studentNameDetail {
-              font-size: 30px;
-            }
-            #grid > div.imageRow.row {
-              width: 100%;
-              margin-left:0;
-            }
+    #uncontrolled-tab-example-pane-2 {
+      margin: 10px;
+      width: 90%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
 }
+
+/* @media only screen and (max-width: 400px) {
+
+} */

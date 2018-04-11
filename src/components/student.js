@@ -90,19 +90,19 @@ class Student extends Component {
                   <Row id="projectRowReact">
                     <a href={this.student.q3project} target="_blank">
                       <i id="projectIconReact" className="fab fa-react"></i>
-                      View my Third Quarter Project
+                      View my 3rd Quarter Project
                     </a>
                   </Row>
                   <Row id="projectRowDb">
                     <a href={this.student.q2project} target="_blank">
                       <i id="projectIconDb" className="fal fa-database"></i>
-                      View my Second Quarter Project
+                      View my 2nd Quarter Project
                     </a>
                   </Row>
                   <Row id="projectRowBottom">
                     <a href={this.student.q1project} target="_blank">
                       <i id="projectIconFlask" className="fal fa-flask"></i>
-                    View my First Quarter Project
+                    View my 1st Quarter Project
                     </a>
                   </Row>
                 </Col>
@@ -114,6 +114,9 @@ class Student extends Component {
           <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
             <Tab eventKey={1} title="About Me">
               {this.student.bio}
+              <p>
+                <a href={this.student.personalsite}>{this.student.personalsite}</a>
+              </p>
             </Tab>
             <Tab eventKey={2} title="Capstone Description">
               {this.student.capstonedesc}

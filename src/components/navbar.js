@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, NavItem, Nav, Button, ButtonToolbar } from 'react-bootstrap';
+import { Navbar, NavItem, Nav, Button, ButtonToolbar, MenuItem } from 'react-bootstrap';
 import '../App.css';
 import galvanize from '../images/galvanize-logo.svg';
 import rsvp from '../images/rsvp.png';
@@ -14,8 +14,15 @@ const NavBar = () =>
       </a>
     </Navbar.Brand>
     <Navbar.Toggle />
+  {/* <Nav>
+      <NavItem className="home" eventKey={1} href="https://galvanizestudentgallery.herokuapp.com/">
+        home
+      </NavItem>
+    </Nav> */}
   </Navbar.Header>
-  <Navbar.Collapse>
+
+    <Navbar.Collapse>
+
     <Nav pullRight>
       <div>
         <ButtonToolbar>
