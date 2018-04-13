@@ -826,9 +826,14 @@ body {
           transform: scale(0.9, 0.9);
           margin-top: 1em;
           margin-bottom: 1em;
+          margin-left: 0;
+          margin-right: 0;
           padding-top: 0;
         }
-
+        #meetTheStudentsDiv {
+        width: 100%;
+        /* margin: 0 auto; */
+        }
 }
 
 /* Landscape */
@@ -1161,150 +1166,6 @@ body {
   and (min-width: 375px)
   and (max-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
-
-    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
-      width: 100%;
-    }
-
-    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
-      margin: 0;
-      width: 100%;
-    }
-
-    #cardIcon {
-      margin: 10px;
-    }
-
-    body {
-      background-color: white;
-    }
-
-    #grid {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      background-color: white;
-    }
-
-    div #grid .container {
-      width: 200%;
-      margin: 0;
-      padding: 0;
-    }
-
-    #projectRowTop {
-      margin: 0;
-      padding: 0;
-      margin-left: -30px;
-      margin-bottom: 10px;
-    }
-
-    #projectRowReact {
-      margin: 0;
-      margin-left: -25px;
-      margin-bottom: 10px;
-    }
-
-    #projectRowDb {
-      margin: 0;
-      margin-left: -23px;
-      margin-bottom: 10px;
-    }
-
-    #projectRowBottom {
-      margin: 0;
-      font-size: 5px;
-      margin-left: -23px;
-      margin-bottom: 20px;
-    }
-
-    #studentNameDetail {
-      font-size: 30px;
-      margin-top: 100px;
-      text-align: left;
-   }
-
-    #grid > div.imageRow.row {
-      width: 100%;
-      margin-left: 0;
-    }
-
-    #uncontrolled-tab-example-tab-1 {
-      font-size: 1em;
-      margin: 0;
-      padding: 0;
-      margin-top: 10px;
-      padding: 8px;
-
-    }
-
-    #uncontrolled-tab-example-tab-2 {
-      font-size: 1em;
-      margin: 0;
-      padding: 0;
-      margin-top: 10px;
-      margin-left: 10px;
-      padding: 8px;
-    }
-
-    .tab-content>.active {
-      margin: 0;
-      padding: 0;
-    }
-
-    #uncontrolled-tab-example-pane-1 {
-      margin: 10px;
-      width: 116%;
-      margin-left: 20px;
-      margin-top: 20px;
-    }
-
-    #uncontrolled-tab-example-pane-2 {
-      margin: 10px;
-      width: 116%;
-      margin-left: 20px;
-      margin-top: 20px;
-    }
-
-    #contactRow {
-      margin: 0;
-      padding: 0;
-      margin-left: -94px;
-    }
-
-    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-      margin-left: 85px;
-    }
-    #grid {
-      width: 200%;
-      padding: 0;
-      margin:0;
-    }
-    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-      margin: 0;
-      width: 150px;
-      margin-top: -90px;
-      margin-left: 30px;
-      margin-bottom: -10px;
-      padding: 0
-    }
-    #roundimg {
-      width: 40em;
-      height: auto;
-    }
-
-    * {
-   /* -webkit-box-sizing: border-box; */
-   -moz-box-sizing: border-box;
-   /* box-sizing: border-box; */
-    }
-
-    .meetTheStudentsHeader {
-      transform: scale(0.9, 0.9);
-      margin-top: 1em;
-      margin-bottom: 1em;
-      padding-top: 0;
-    }
 }
 
 /* Portrait */
@@ -1313,15 +1174,6 @@ body {
   and (max-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media only screen
-  and (min-width: 375px)
-  and (max-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
 
         #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
           width: 100%;
@@ -1430,7 +1282,161 @@ body {
         #contactRow {
           margin: 0;
           padding: 0;
-          margin-left: -340px;
+          margin-left: -94px;
+        }
+
+        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+          margin-left: 85px;
+        }
+        #grid {
+          width: 200%;
+          padding: 0;
+          margin:0;
+        }
+        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+          margin: 0;
+          width: 150px;
+          margin-top: -90px;
+          margin-left: 30px;
+          margin-bottom: -10px;
+          padding: 0
+        }
+        #roundimg {
+          width: 40em;
+          height: auto;
+        }
+
+        * {
+       /* -webkit-box-sizing: border-box; */
+       -moz-box-sizing: border-box;
+       /* box-sizing: border-box; */
+        }
+
+        .meetTheStudentsHeader {
+          transform: scale(0.9, 0.9);
+          margin-top: 1em;
+          margin-bottom: 1em;
+          padding-top: 0;
+        }
+}
+
+/* Landscape */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+          width: 100%;
+        }
+
+        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+          margin: 0;
+          /* width: 25%; */
+        }
+
+        #cardIcon {
+          margin: 10px;
+        }
+
+        body {
+          background-color: white;
+        }
+
+        #grid {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          background-color: white;
+        }
+
+        div #grid .container {
+          width: 200%;
+          margin: 0;
+          padding: 0;
+        }
+
+        #projectRowTop {
+          margin: 0;
+          padding: 0;
+          margin-left: -30px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowReact {
+          margin: 0;
+          margin-left: -25px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowDb {
+          margin: 0;
+          margin-left: -23px;
+          margin-bottom: 10px;
+        }
+
+        #projectRowBottom {
+          margin: 0;
+          font-size: 5px;
+          margin-left: -23px;
+          margin-bottom: 20px;
+        }
+
+        #studentNameDetail {
+          font-size: 30px;
+          margin-top: 100px;
+          text-align: left;
+       }
+
+        #grid > div.imageRow.row {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        #uncontrolled-tab-example-tab-1 {
+          font-size: 1em;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+          padding: 8px;
+
+        }
+
+        #uncontrolled-tab-example-tab-2 {
+          font-size: 1em;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+          margin-left: 10px;
+          padding: 8px;
+        }
+
+        .tab-content>.active {
+          margin: 0;
+          padding: 0;
+        }
+
+        #uncontrolled-tab-example-pane-1 {
+          margin: 10px;
+          width: 116%;
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+
+        #uncontrolled-tab-example-pane-2 {
+          margin: 10px;
+          width: 116%;
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+
+        #contactRow {
+          margin: 0;
+          padding: 0;
+          margin-left: -100px;
+          text-align: right;
+          width: 135%;
         }
 
         #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
@@ -1535,8 +1541,940 @@ body {
       margin-left: 20px;
       margin-top: 20px;
     }
+    .meetTheStudentsHeader {
+      transform: scale(0.9, 0.9);
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 0;
+    }
+    #meetTheStudentsDiv {
+    width: 100%;
+    margin: 0 auto;
+    }
 }
 
-/* @media only screen and (max-width: 400px) {
+/* ----------- iPad 1, 2, Mini and Air ----------- */
 
-} */
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+      width: 100%;
+    }
+
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+      margin: 0;
+      width: 100%;
+    }
+
+    #cardIcon {
+      margin: 10px;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    #grid {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: white;
+    }
+
+    div #grid .container {
+      width: 200%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #projectRowTop {
+      margin: 0;
+      padding: 0;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowReact {
+      margin: 0;
+      margin-left: -25px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowDb {
+      margin: 0;
+      margin-left: -23px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowBottom {
+      margin: 0;
+      font-size: 5px;
+      margin-left: -23px;
+      margin-bottom: 20px;
+    }
+
+    #studentNameDetail {
+      font-size: 30px;
+      margin-top: 100px;
+      text-align: left;
+      margin-left: -2px;
+    }
+
+    #grid > div.imageRow.row {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    #uncontrolled-tab-example-tab-1 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      padding: 8px;
+
+    }
+
+    #uncontrolled-tab-example-tab-2 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 10px;
+      padding: 8px;
+    }
+
+    .tab-content>.active {
+      margin: 0;
+      padding: 0;
+    }
+
+    #uncontrolled-tab-example-pane-1 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #uncontrolled-tab-example-pane-2 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #contactRow {
+      margin: 0;
+      padding: 0;
+      margin-left: -16px;;
+    }
+
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin-left: 85px;
+    }
+    #grid {
+      width: 200%;
+      padding: 0;
+      margin:0;
+    }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin: 0;
+      width: 150px;
+      margin-top: -90px;
+      margin-left: 30px;
+      margin-bottom: -10px;
+      padding: 0
+    }
+    #roundimg {
+      width: 40em;
+      height: auto;
+    }
+
+    * {
+    /* -webkit-box-sizing: border-box; */
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+    }
+
+    .meetTheStudentsHeader {
+      transform: scale(0.9, 0.9);
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 0;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+      width: 100%;
+    }
+
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+      margin: 0;
+      width: 100%;
+    }
+
+    #cardIcon {
+      margin: 10px;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    #grid {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: white;
+    }
+
+    div #grid .container {
+      width: 200%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #projectRowTop {
+      margin: 0;
+      padding: 0;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowReact {
+      margin: 0;
+      margin-left: -25px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowDb {
+      margin: 0;
+      margin-left: -23px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowBottom {
+      margin: 0;
+      font-size: 5px;
+      margin-left: -23px;
+      margin-bottom: 20px;
+    }
+
+    #studentNameDetail {
+      font-size: 30px;
+      margin-top: 100px;
+      text-align: left;
+      margin-left: -2px;
+    }
+
+    #grid > div.imageRow.row {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    #uncontrolled-tab-example-tab-1 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      padding: 8px;
+
+    }
+
+    #uncontrolled-tab-example-tab-2 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 10px;
+      padding: 8px;
+    }
+
+    .tab-content>.active {
+      margin: 0;
+      padding: 0;
+    }
+
+    #uncontrolled-tab-example-pane-1 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #uncontrolled-tab-example-pane-2 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #contactRow {
+      margin: 0;
+      padding: 0;
+      margin-left: -540px;
+    }
+
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin-left: 85px;
+    }
+    #grid {
+      width: 200%;
+      padding: 0;
+      margin:0;
+    }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin: 0;
+      width: 150px;
+      margin-top: -90px;
+      margin-left: 30px;
+      margin-bottom: -10px;
+      padding: 0
+    }
+    #roundimg {
+      width: 40em;
+      height: auto;
+    }
+
+    * {
+    /* -webkit-box-sizing: border-box; */
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+    }
+
+    .meetTheStudentsHeader {
+      transform: scale(0.9, 0.9);
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 0;
+    }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+      width: 100%;
+    }
+
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+      margin: 0;
+      width: 100%;
+    }
+
+    #cardIcon {
+      margin: 10px;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    #grid {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: white;
+    }
+
+    div #grid .container {
+      width: 200%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #projectRowTop {
+      margin: 0;
+      padding: 0;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowReact {
+      margin: 0;
+      margin-left: -25px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowDb {
+      margin: 0;
+      margin-left: -23px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowBottom {
+      margin: 0;
+      font-size: 5px;
+      margin-left: -23px;
+      margin-bottom: 20px;
+    }
+
+    #studentNameDetail {
+      font-size: 30px;
+      margin-top: 100px;
+      text-align: left;
+      margin-left: -2px;
+    }
+
+    #grid > div.imageRow.row {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    #uncontrolled-tab-example-tab-1 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      padding: 8px;
+
+    }
+
+    #uncontrolled-tab-example-tab-2 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 10px;
+      padding: 8px;
+    }
+
+    .tab-content>.active {
+      margin: 0;
+      padding: 0;
+    }
+
+    #uncontrolled-tab-example-pane-1 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #uncontrolled-tab-example-pane-2 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #contactRow {
+      margin: 0;
+      padding: 0;
+      margin-left: -16px;
+    }
+
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin-left: 85px;
+    }
+    #grid {
+      width: 200%;
+      padding: 0;
+      margin:0;
+    }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin: 0;
+      width: 150px;
+      margin-top: -90px;
+      margin-left: 30px;
+      margin-bottom: -10px;
+      padding: 0
+    }
+    #roundimg {
+      width: 40em;
+      height: auto;
+    }
+
+    * {
+    /* -webkit-box-sizing: border-box; */
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+    }
+
+    .meetTheStudentsHeader {
+      transform: scale(0.9, 0.9);
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 0;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #studentNameDetail {
+      margin-top: 0;
+    }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 834px)
+  and (max-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+      width: 100%;
+    }
+
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+      margin: 0;
+      width: 100%;
+    }
+
+    #cardIcon {
+      margin: 10px;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    #grid {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: white;
+    }
+
+    div #grid .container {
+      width: 200%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #projectRowTop {
+      margin: 0;
+      padding: 0;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowReact {
+      margin: 0;
+      margin-left: -25px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowDb {
+      margin: 0;
+      margin-left: -23px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowBottom {
+      margin: 0;
+      font-size: 5px;
+      margin-left: -23px;
+      margin-bottom: 20px;
+    }
+
+    #studentNameDetail {
+      font-size: 30px;
+      margin-top: 10px;
+      text-align: left;
+      margin-left: -2px;
+    }
+
+    #grid > div.imageRow.row {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    #uncontrolled-tab-example-tab-1 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      padding: 8px;
+
+    }
+
+    #uncontrolled-tab-example-tab-2 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 10px;
+      padding: 8px;
+    }
+
+    .tab-content>.active {
+      margin: 0;
+      padding: 0;
+    }
+
+    #uncontrolled-tab-example-pane-1 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #uncontrolled-tab-example-pane-2 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #contactRow {
+      margin: 0;
+      padding: 0;
+      margin-left: -540px;
+    }
+
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin-left: 85px;
+    }
+    #grid {
+      width: 200%;
+      padding: 0;
+      margin:0;
+    }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin: 0;
+      width: 150px;
+      margin-top: -90px;
+      margin-left: 30px;
+      margin-bottom: -10px;
+      padding: 0
+    }
+    #roundimg {
+      width: 40em;
+      height: auto;
+    }
+
+    * {
+    /* -webkit-box-sizing: border-box; */
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+    }
+
+    .meetTheStudentsHeader {
+      transform: scale(0.9, 0.9);
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 0;
+    }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-width: 834px)
+  and (max-width: 834px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-width: 1112px)
+  and (max-width: 1112px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 1024px)
+  and (max-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-width: 1024px)
+  and (max-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-width: 1366px)
+  and (max-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen
+  and (min-width: 320px)
+  and (max-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+      width: 100%;
+    }
+
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+      margin: 0;
+      width: 100%;
+    }
+
+    #cardIcon {
+      margin: 10px;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    #grid {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: white;
+    }
+
+    div #grid .container {
+      width: 200%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #projectRowTop {
+      margin: 0;
+      padding: 0;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowReact {
+      margin: 0;
+      margin-left: -25px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowDb {
+      margin: 0;
+      margin-left: -23px;
+      margin-bottom: 10px;
+    }
+
+    #projectRowBottom {
+      margin: 0;
+      font-size: 5px;
+      margin-left: -23px;
+      margin-bottom: 20px;
+    }
+
+    #studentNameDetail {
+      font-size: 30px;
+      margin-top: 100px;
+      text-align: left;
+    }
+
+    #grid > div.imageRow.row {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    #uncontrolled-tab-example-tab-1 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      padding: 8px;
+
+    }
+
+    #uncontrolled-tab-example-tab-2 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 10px;
+      padding: 8px;
+    }
+
+    .tab-content>.active {
+      margin: 0;
+      padding: 0;
+    }
+
+    #uncontrolled-tab-example-pane-1 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #uncontrolled-tab-example-pane-2 {
+      margin: 10px;
+      width: 80%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    #contactRow {
+      margin: 0;
+      padding: 0;
+      margin-left: -14px;
+    }
+
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin-left: 85px;
+    }
+    #grid {
+      width: 200%;
+      padding: 0;
+      margin:0;
+    }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin: 0;
+      width: 150px;
+      margin-top: -90px;
+      margin-left: 30px;
+      margin-bottom: -10px;
+      padding: 0
+    }
+    #roundimg {
+      width: 40em;
+      height: auto;
+    }
+
+    * {
+    /* -webkit-box-sizing: border-box; */
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+    }
+
+    .meetTheStudentsHeader {
+      transform: scale(0.9, 0.9);
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 0;
+      font-size: 2.25em;
+    }
+
+    #meetTheStudentsDiv {
+      width: 100%;
+    }
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: landscape) {
+
+}
