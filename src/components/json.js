@@ -86,29 +86,8 @@ var json = [{
   extraspace3: "",
   extraspace4: "",
   extraspace5: ""
-}, {
-  id: 5,
-  headshot: "https://i.imgur.com/uHu09GK.jpg",
-  fullname: "Jon Aquarone",
-  github: "https://github.com/Jontronics",
-  linkedin: "https://www.linkedin.com/in/jonathan-aquarone-73085189/",
-  email: "mailto:j.aquarone@gmail.com",
-  personalsite: "http://contactstudentdirectly.surge.sh/",
-  capstonelink: "http://contactstudentdirectly.surge.sh/",
-  capstonedesc: "My capstone project helps pro skaters share secrete skate spots in an exclusive network.",
-  q1project: "https://leadscare-2a474.firebaseapp.com/",
-  q2project: "https://github.com/Jontronics/project-q2",
-  q3project: "https://github.com/Jontronics/react-google-map",
-  bio: "Hello my name is Jonathan and I've got chops in all phases of design, prototyping and development process. I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. Afer all, that's where the majority of amazing user experiences start. I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more. To validate product features, I quickly prototype and have potential users test the product using Product Management methodologies. I can build full stack web applications to get your product out the door and into users hands as fast as possible.",
-  funfact: "",
-  funpic: "",
-  requestresume: "mailto:j.aquarone@gmail.com",
-  extraspace1: "",
-  extraspace2: "",
-  extraspace3: "",
-  extraspace4: "",
-  extraspace5: ""
-}, {
+},
+{
   id: 6,
   headshot: "https://i.imgur.com/lC1D5iQ.jpg",
   fullname: "Kyle Treman",
@@ -196,6 +175,28 @@ var json = [{
   extraspace3: "",
   extraspace4: "",
   extraspace5: ""
-}]
+}, {
+ id: 5,
+ headshot: "https://i.imgur.com/uHu09GK.jpg",
+ fullname: "Jon Aquarone",
+ github: "https://github.com/Jontronics",
+ linkedin: "https://www.linkedin.com/in/jonathan-aquarone-73085189/",
+ email: "mailto:j.aquarone@gmail.com",
+ personalsite: "http://contactstudentdirectly.surge.sh/",
+ capstonelink: "http://contactstudentdirectly.surge.sh/",
+ capstonedesc: "My capstone project helps pro skaters share secrete skate spots in an exclusive network.",
+ q1project: "https://leadscare-2a474.firebaseapp.com/",
+ q2project: "https://github.com/Jontronics/project-q2",
+ q3project: "https://github.com/Jontronics/react-google-map",
+ bio: "Hello my name is Jonathan and I've got chops in all phases of design, prototyping and development process. I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. Afer all, that's where the majority of amazing user experiences start. I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more. To validate product features, I quickly prototype and have potential users test the product using Product Management methodologies. I can build full stack web applications to get your product out the door and into users hands as fast as possible.",
+ funfact: "",
+ funpic: "",
+ requestresume: "mailto:j.aquarone@gmail.com",
+ extraspace1: "",
+ extraspace2: "",
+ extraspace3: "",
+ extraspace4: "",
+ extraspace5: ""
+},]
 
 module.exports.json = json;
