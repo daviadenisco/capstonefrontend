@@ -1,17 +1,32 @@
 import React, { Component } from 'react';
-import { Tab, Row, Col, Nav, NavItem, Jumbotron, Grid, Tabs, Button } from 'react-bootstrap';
+import { Tab, Row, Col, Nav, NavItem, Jumbotron, Grid, Tabs, Button, Pager } from 'react-bootstrap';
 import '../App.css';
 var json = require('./json.js').json;
 
 class Student extends Component {
   constructor(props) {
     super(props);
-    console.log('STUDENT ID', this.studentId)
+    console.log("PROPS:", props);
+    // console.log('STUDENT ID', this.studentId)
     this.state = {
       student: {},
       loading: false
     }
     this.getstudentinfo = this.getstudentinfo.bind(this)
+
+    let nextId = parseInt(this.studentId) + 1;
+    if(nextId === json.length+1) {
+      nextId = 1;
+    }
+    console.log("nextId", nextId);
+    this.nextId = nextId.toString();
+
+    let previousId = parseInt(this.studentId) - 1;
+    if(previousId < 1) {
+      previousId = json.length;
+    }
+    console.log("previousId", previousId);
+    this.previousId = previousId.toString();
   };
   // async
   getstudentinfo() {
@@ -54,13 +69,19 @@ class Student extends Component {
     }
     return (
       <div>
+      <Pager>
+        <Pager.Item id="previous" href={this.previousId}>Prev</Pager.Item>{' '}
+        <Pager.Item id="next" href={this.nextId}>Next</Pager.Item>
+      </Pager>
       <Grid id="grid">
         <Row className="imageRow">
           <Col xs={6} md={4}>
             <a id="studentImages">
               <img id="roundimg" src={this.student.headshot} title={this.student.fullname} alt={this.student.fullname}></img>
             </a>
+
           </Col>
+
             <Col md={6} mdPull={6}>
               <Row>
                 <div>
@@ -128,11 +149,12 @@ class Student extends Component {
     )
   }
   get studentId() {
-    return this.props.match.params.id
+    return this.props.match.params.id;
   }
   get student() {
     return this.state.student;
   }
+
 }
 
 export default Student;

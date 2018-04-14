@@ -43,11 +43,11 @@ class Home extends Component {
 
     return this.state.studentinfotablearr.map((student, index) =>
     <div id="allStudents">
-      <div id="studentBody" onClick={this.handleClick}>
+      <div id="studentBody">
       <Col xs={6} md={4} key={index}>
           <a href={`/student/${student.id}`} id="studentImages">
           <img id="roundimg" src={student.headshot} title={student.fullname} responsive alt={student.fullname}></img>
-          <p><a id="studentName" href={`/student/${student.id}`}>{student.fullname}</a></p>
+          <p><a id="studentName">{student.fullname}</a></p>
           </a>
         </Col>
       </div>

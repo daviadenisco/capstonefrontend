@@ -85,7 +85,7 @@ body {
 }
 
 #root > div > div {
-  margin-top: 6em;
+  margin-top: 3em;
 }
 
 /* hamburger button border issue fixed here */
@@ -111,13 +111,15 @@ body {
   /* font-family: 'Playfair Display', serif; */
   /* font-family: 'Open Sans', sans-serif; */
   /* font-family: 'Raleway', sans-serif; */
-  font-family: 'Libre Baskerville', serif;
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Lora', serif;
+
 
   font-size: 2.5em;
   margin-top: 2.25em;
   margin-bottom: 2.25em;
   text-align: center;
-  font-weight: lighter;
+  font-weight: 500;
   /* letter-spacing: 0.25px; */
   letter-spacing: 1px;
 
@@ -126,7 +128,7 @@ body {
   height: auto;
   position: relative;
   transform: scale(1.05, 1.05);
-
+  max-width: 80;
 }
 
 #meetTheStudentsDiv {
@@ -190,6 +192,22 @@ a#studentName {
    /* student details pages */
 /* ---------------------------- */
 
+#previous {
+  color: #47B6C4;
+}
+
+#previous:hover {
+  color: #F58F32;
+}
+
+#next {
+  color: #47B6C4;
+}
+
+#next:hover {
+  color: #F58F32;
+}
+
 .col-md-pull-6 {
   right: 0;
   margin: 0;
@@ -231,7 +249,7 @@ a#studentName {
   letter-spacing: 0.5px;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-size: 1.2em;
-  text-align: justified;
+  text-align: justify;
   color: #333333;
   margin-left: 2.5em;
 }
@@ -239,22 +257,17 @@ a#studentName {
 #uncontrolled-tab-example-tab-1:hover {
   color: #47B6C4;
   background-color: #fef2e7;
-  /* color: #F58F32; */
-  /* galvanize aqua color: #47B6C4;*/
 }
 
 li.active #uncontrolled-tab-example-tab-1{
-  /* background-color: #c5e8ec; */
-  /* color: #F58F32; */
   color: #47B6C4;
-  /* galvanize aqua color: #47B6C4;*/
 }
 
 #uncontrolled-tab-example-tab-2 {
   letter-spacing: 0.5px;
   font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
   font-size: 1.2em;
-  text-align: justified;
+  text-align: justify;
   color: #333333;
 }
 
@@ -289,9 +302,9 @@ li.active #uncontrolled-tab-example-tab-2{
 /* whole card layout */
 
 #grid > div.imageRow {
-  margin-top: 3em;
-  margin-right: 5em;
-  margin-left: 2.5em;
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 
 #grid > div.imageRow > div.col-md-6.col-md-pull-6 {
@@ -325,7 +338,7 @@ li.active #uncontrolled-tab-example-tab-2{
   margin-top: 1em;
   color: #333333;
   text-decoration: none;
-  vertical-align:middle;
+  vertical-align: middle;
   font-size: 14px;
   letter-spacing: 0.5px;
 }
@@ -352,7 +365,7 @@ li.active #uncontrolled-tab-example-tab-2{
   margin-top: 1em;
   color: #333333;
   text-decoration: none;
-  vertical-align:middle;
+  vertical-align: middle;
   font-size: 14px;
   letter-spacing: 0.5px;
 }
@@ -670,14 +683,6 @@ body {
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-width: 375px)
-  and (max-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
 /* Portrait */
 @media only screen
   and (min-width: 375px)
@@ -685,155 +690,155 @@ body {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
-    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
-          width: 100%;
-        }
+  #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+    width: 100%;
+  }
 
-        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
-          margin: 0;
-          width: 100%;
-        }
+  #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+    margin: 0;
+    width: 100%;
+  }
 
-        #cardIcon {
-          margin: 10px;
-        }
+  #cardIcon {
+    margin: 10px;
+  }
 
-        body {
-          background-color: white;
-        }
+  body {
+    background-color: white;
+  }
 
-        #grid {
-          margin: 0;
-          padding: 0;
-          width: 100%;
-          background-color: white;
-        }
+  #grid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+  }
 
-        div #grid .container {
-          width: 200%;
-          margin: 0;
-          padding: 0;
-        }
+  div #grid .container {
+    width: 200%;
+    margin: 0;
+    padding: 0;
+  }
 
-        #projectRowTop {
-          margin: 0;
-          padding: 0;
-          margin-left: -30px;
-          margin-bottom: 10px;
-        }
+  #projectRowTop {
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+    margin-bottom: 10px;
+  }
 
-        #projectRowReact {
-          margin: 0;
-          margin-left: -25px;
-          margin-bottom: 10px;
-        }
+  #projectRowReact {
+    margin: 0;
+    margin-left: -25px;
+    margin-bottom: 10px;
+  }
 
-        #projectRowDb {
-          margin: 0;
-          margin-left: -23px;
-          margin-bottom: 10px;
-        }
+  #projectRowDb {
+    margin: 0;
+    margin-left: -23px;
+    margin-bottom: 10px;
+  }
 
-        #projectRowBottom {
-          margin: 0;
-          font-size: 5px;
-          margin-left: -23px;
-          margin-bottom: 20px;
-        }
+  #projectRowBottom {
+    margin: 0;
+    font-size: 5px;
+    margin-left: -23px;
+    margin-bottom: 20px;
+  }
 
-        #studentNameDetail {
-          font-size: 30px;
-          margin-top: 100px;
-          text-align: left;
-       }
+  #studentNameDetail {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: left;
+  }
 
-        #grid > div.imageRow.row {
-          width: 100%;
-          margin-left: 0;
-        }
+  #grid > div.imageRow.row {
+    width: 100%;
+    margin-left: 0;
+  }
 
-        #uncontrolled-tab-example-tab-1 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          padding: 8px;
+  #uncontrolled-tab-example-tab-1 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    padding: 8px;
+  }
 
-        }
+  #uncontrolled-tab-example-tab-2 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px;
+  }
 
-        #uncontrolled-tab-example-tab-2 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          margin-left: 10px;
-          padding: 8px;
-        }
+  .tab-content>.active {
+    margin: 0;
+    padding: 0;
+  }
 
-        .tab-content>.active {
-          margin: 0;
-          padding: 0;
-        }
+  #uncontrolled-tab-example-pane-1 {
+    margin: 10px;
+    width: 116%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 
-        #uncontrolled-tab-example-pane-1 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+  #uncontrolled-tab-example-pane-2 {
+    margin: 10px;
+    width: 116%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 
-        #uncontrolled-tab-example-pane-2 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+  #contactRow {
+    margin: 0;
+    padding: 0;
+    margin-left: -94px;
+  }
 
-        #contactRow {
-          margin: 0;
-          padding: 0;
-          margin-left: -94px;
-        }
+  #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+    margin-left: 85px;
+  }
 
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin-left: 85px;
-        }
-        #grid {
-          width: 200%;
-          padding: 0;
-          margin:0;
-        }
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin: 0;
-          width: 150px;
-          margin-top: -90px;
-          margin-left: 30px;
-          margin-bottom: -10px;
-          padding: 0
-        }
-        #roundimg {
-          width: 40em;
-          height: auto;
-        }
+  #grid {
+    width: 200%;
+    padding: 0;
+    margin:0;
+  }
 
-        * {
-       /* -webkit-box-sizing: border-box; */
-       -moz-box-sizing: border-box;
-       /* box-sizing: border-box; */
-        }
+  #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+    margin: 0;
+    width: 150px;
+    margin-top: -90px;
+    margin-left: 30px;
+    margin-bottom: -10px;
+    padding: 0
+  }
 
-        .meetTheStudentsHeader {
-          transform: scale(0.9, 0.9);
-          margin-top: 1em;
-          margin-bottom: 1em;
-          margin-left: 0;
-          margin-right: 0;
-          padding-top: 0;
-        }
-        #meetTheStudentsDiv {
-        width: 100%;
-        /* margin: 0 auto; */
-        }
+  #roundimg {
+    width: 40em;
+    height: auto;
+  }
+
+  * {
+    -moz-box-sizing: border-box;
+  }
+
+  .meetTheStudentsHeader {
+    transform: scale(0.9, 0.9);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+  }
+
+  #meetTheStudentsDiv {
+    width: 100%;
+  }
 }
 
 /* Landscape */
@@ -843,142 +848,142 @@ body {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
-          width: 100%;
-        }
+  #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+    width: 100%;
+  }
 
-        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
-          margin: 0;
-          width: 100%;
-        }
+  #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+    margin: 0;
+    width: 100%;
+  }
 
-        #cardIcon {
-          margin: 10px;
-        }
+  #cardIcon {
+    margin: 10px;
+  }
 
-        body {
-          background-color: white;
-        }
+  body {
+    background-color: white;
+  }
 
-        #grid {
-          margin: 0;
-          padding: 0;
-          width: 100%;
-          background-color: white;
-        }
+  #grid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+  }
 
-        div #grid .container {
-          width: 200%;
-          margin: 0;
-          padding: 0;
-        }
+  div #grid .container {
+    width: 200%;
+    margin: 0;
+    padding: 0;
+  }
 
-        #projectRowTop {
-          margin: 0;
-          padding: 0;
-          margin-left: -30px;
-          margin-bottom: 10px;
-        }
+  #projectRowTop {
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+    margin-bottom: 10px;
+  }
 
-        #projectRowReact {
-          margin: 0;
-          margin-left: -25px;
-          margin-bottom: 10px;
-        }
+  #projectRowReact {
+    margin: 0;
+    margin-left: -25px;
+    margin-bottom: 10px;
+  }
 
-        #projectRowDb {
-          margin: 0;
-          margin-left: -23px;
-          margin-bottom: 10px;
-        }
+  #projectRowDb {
+    margin: 0;
+    margin-left: -23px;
+    margin-bottom: 10px;
+  }
 
-        #projectRowBottom {
-          margin: 0;
-          font-size: 5px;
-          margin-left: -23px;
-          margin-bottom: 20px;
-        }
+  #projectRowBottom {
+    margin: 0;
+    font-size: 5px;
+    margin-left: -23px;
+    margin-bottom: 20px;
+  }
 
-        #studentNameDetail {
-          font-size: 30px;
-          margin-top: 100px;
-          text-align: left;
-       }
+  #studentNameDetail {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: left;
+  }
 
-        #grid > div.imageRow.row {
-          width: 100%;
-          margin-left: 0;
-        }
+  #grid > div.imageRow.row {
+    width: 100%;
+    margin-left: 0;
+  }
 
-        #uncontrolled-tab-example-tab-1 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          padding: 8px;
+  #uncontrolled-tab-example-tab-1 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    padding: 8px;
+  }
 
-        }
+  #uncontrolled-tab-example-tab-2 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px;
+  }
 
-        #uncontrolled-tab-example-tab-2 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          margin-left: 10px;
-          padding: 8px;
-        }
+  .tab-content>.active {
+    margin: 0;
+    padding: 0;
+  }
 
-        .tab-content>.active {
-          margin: 0;
-          padding: 0;
-        }
+  #uncontrolled-tab-example-pane-1 {
+    margin: 10px;
+    width: 116%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 
-        #uncontrolled-tab-example-pane-1 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+  #uncontrolled-tab-example-pane-2 {
+    margin: 10px;
+    width: 116%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 
-        #uncontrolled-tab-example-pane-2 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+  #contactRow {
+    margin: 0;
+    padding: 0;
+    margin-left: -286px;
+  }
 
-        #contactRow {
-          margin: 0;
-          padding: 0;
-          margin-left: -286px;
-        }
+  #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+    margin-left: 85px;
+  }
 
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin-left: 85px;
-        }
-        #grid {
-          width: 200%;
-          padding: 0;
-          margin:0;
-        }
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin: 0;
-          width: 150px;
-          margin-top: -90px;
-          margin-left: 30px;
-          margin-bottom: -10px;
-          padding: 0
-        }
-        #roundimg {
-          width: 40em;
-          height: auto;
-        }
+  #grid {
+    width: 200%;
+    padding: 0;
+    margin:0;
+  }
 
-        * {
-       /* -webkit-box-sizing: border-box; */
-       -moz-box-sizing: border-box;
-       /* box-sizing: border-box; */
-        }
+  #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+    margin: 0;
+    width: 150px;
+    margin-top: -90px;
+    margin-left: 30px;
+    margin-bottom: -10px;
+    padding: 0
+  }
+
+  #roundimg {
+    width: 40em;
+    height: auto;
+  }
+
+  * {
+    -moz-box-sizing: border-box;
+  }
 
 }
 
@@ -990,184 +995,157 @@ body {
   and (max-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
-      a#studentName {
-        font-size: 1em;
-      }
+  a#studentName {
+    font-size: 1em;
+  }
 
-        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
-          width: 100%;
-        }
+  #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+    width: 100%;
+  }
 
-        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
-          margin: 0;
-          width: 100%;
-        }
+  #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+    margin: 0;
+    width: 100%;
+  }
 
-        #cardIcon {
-          margin: 10px;
-        }
+  #cardIcon {
+    margin: 10px;
+  }
 
-        body {
-          background-color: white;
-        }
+  body {
+    background-color: white;
+  }
 
-        #grid {
-          margin: 0;
-          padding: 0;
-          width: 100%;
-          background-color: white;
-        }
+  #grid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+  }
 
-        div #grid .container {
-          width: 200%;
-          margin: 0;
-          padding: 0;
-        }
+  div #grid .container {
+    width: 200%;
+    margin: 0;
+    padding: 0;
+  }
 
-        #projectRowTop {
-          margin: 0;
-          padding: 0;
-          margin-left: -30px;
-          margin-bottom: 10px;
-        }
+  #projectRowTop {
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+    margin-bottom: 10px;
+  }
 
-        #projectRowReact {
-          margin: 0;
-          margin-left: -25px;
-          margin-bottom: 10px;
-        }
+  #projectRowReact {
+    margin: 0;
+    margin-left: -25px;
+    margin-bottom: 10px;
+  }
 
-        #projectRowDb {
-          margin: 0;
-          margin-left: -23px;
-          margin-bottom: 10px;
-        }
+  #projectRowDb {
+    margin: 0;
+    margin-left: -23px;
+    margin-bottom: 10px;
+  }
 
-        #projectRowBottom {
-          margin: 0;
-          font-size: 5px;
-          margin-left: -23px;
-          margin-bottom: 20px;
-        }
+  #projectRowBottom {
+    margin: 0;
+    font-size: 5px;
+    margin-left: -23px;
+    margin-bottom: 20px;
+  }
 
-        #studentNameDetail {
-          font-size: 30px;
-          margin-top: 100px;
-          text-align: left;
-       }
+  #studentNameDetail {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: left;
+  }
 
-        #grid > div.imageRow.row {
-          width: 100%;
-          margin-left: 0;
-        }
+  #grid > div.imageRow.row {
+    width: 100%;
+    margin-left: 0;
+  }
 
-        #uncontrolled-tab-example-tab-1 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          padding: 8px;
+  #uncontrolled-tab-example-tab-1 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    padding: 8px;
+  }
 
-        }
+  #uncontrolled-tab-example-tab-2 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px;
+  }
 
-        #uncontrolled-tab-example-tab-2 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          margin-left: 10px;
-          padding: 8px;
-        }
+  .tab-content>.active {
+    margin: 0;
+    padding: 0;
+  }
 
-        .tab-content>.active {
-          margin: 0;
-          padding: 0;
-        }
+  #uncontrolled-tab-example-pane-1 {
+    margin: 10px;
+    width: 116%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 
-        #uncontrolled-tab-example-pane-1 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+  #uncontrolled-tab-example-pane-2 {
+    margin: 10px;
+    width: 116%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 
-        #uncontrolled-tab-example-pane-2 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+  #contactRow {
+    margin: 0;
+    padding: 0;
+    margin-left: -1000px;
+  }
 
-        #contactRow {
-          margin: 0;
-          padding: 0;
-          margin-left: -1000px;
-        }
+  #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+    margin-left: 85px;
+  }
 
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin-left: 85px;
-        }
-        #grid {
-          width: 200%;
-          padding: 0;
-          margin:0;
-        }
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin: 0;
-          width: 150px;
-          margin-top: -90px;
-          margin-left: 30px;
-          margin-bottom: -10px;
-          padding: 0
-        }
-        #roundimg {
-          width: 40em;
-          height: auto;
-        }
+  #grid {
+    width: 200%;
+    padding: 0;
+    margin:0;
+  }
 
-        * {
-       /* -webkit-box-sizing: border-box; */
-       -moz-box-sizing: border-box;
-       /* box-sizing: border-box; */
-        }
+  #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+    margin: 0;
+    width: 150px;
+    margin-top: -90px;
+    margin-left: 30px;
+    margin-bottom: -10px;
+    padding: 0
+  }
 
-        .meetTheStudentsHeader {
-          transform: scale(0.9, 0.9);
-          margin-top: 1em;
-          margin-bottom: 1em;
-          padding-top: 0;
-        }
+  #roundimg {
+    width: 40em;
+    height: auto;
+  }
 
-}
+  * {
+    -moz-box-sizing: border-box;
+  }
 
-/* Portrait */
-@media only screen
-  and (min-width: 414px)
-  and (max-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-
-
-}
-
-/* Landscape */
-@media only screen
-  and (min-width: 414px)
-  and (max-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-
+  .meetTheStudentsHeader {
+    transform: scale(0.9, 0.9);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0;
+  }
 }
 
 /* ----------- iPhone X ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-width: 375px)
-  and (max-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-}
-
 /* Portrait */
 @media only screen
   and (min-width: 375px)
@@ -1175,149 +1153,149 @@ body {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
 
-        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
-          width: 100%;
-        }
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+      width: 100%;
+    }
 
-        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
-          margin: 0;
-          width: 100%;
-        }
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+      margin: 0;
+      width: 100%;
+    }
 
-        #cardIcon {
-          margin: 10px;
-        }
+    #cardIcon {
+      margin: 10px;
+    }
 
-        body {
-          background-color: white;
-        }
+    body {
+      background-color: white;
+    }
 
-        #grid {
-          margin: 0;
-          padding: 0;
-          width: 100%;
-          background-color: white;
-        }
+    #grid {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: white;
+    }
 
-        div #grid .container {
-          width: 200%;
-          margin: 0;
-          padding: 0;
-        }
+    div #grid .container {
+      width: 200%;
+      margin: 0;
+      padding: 0;
+    }
 
-        #projectRowTop {
-          margin: 0;
-          padding: 0;
-          margin-left: -30px;
-          margin-bottom: 10px;
-        }
+    #projectRowTop {
+      margin: 0;
+      padding: 0;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
 
-        #projectRowReact {
-          margin: 0;
-          margin-left: -25px;
-          margin-bottom: 10px;
-        }
+    #projectRowReact {
+      margin: 0;
+      margin-left: -25px;
+      margin-bottom: 10px;
+    }
 
-        #projectRowDb {
-          margin: 0;
-          margin-left: -23px;
-          margin-bottom: 10px;
-        }
+    #projectRowDb {
+      margin: 0;
+      margin-left: -23px;
+      margin-bottom: 10px;
+    }
 
-        #projectRowBottom {
-          margin: 0;
-          font-size: 5px;
-          margin-left: -23px;
-          margin-bottom: 20px;
-        }
+    #projectRowBottom {
+      margin: 0;
+      font-size: 5px;
+      margin-left: -23px;
+      margin-bottom: 20px;
+    }
 
-        #studentNameDetail {
-          font-size: 30px;
-          margin-top: 100px;
-          text-align: left;
-       }
+    #studentNameDetail {
+      font-size: 30px;
+      margin-top: 100px;
+      text-align: left;
+    }
 
-        #grid > div.imageRow.row {
-          width: 100%;
-          margin-left: 0;
-        }
+    #grid > div.imageRow.row {
+      width: 100%;
+      margin-left: 0;
+    }
 
-        #uncontrolled-tab-example-tab-1 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          padding: 8px;
+    #uncontrolled-tab-example-tab-1 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      padding: 8px;
+    }
 
-        }
+    #uncontrolled-tab-example-tab-2 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 10px;
+      padding: 8px;
+    }
 
-        #uncontrolled-tab-example-tab-2 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          margin-left: 10px;
-          padding: 8px;
-        }
+    .tab-content>.active {
+      margin: 0;
+      padding: 0;
+    }
 
-        .tab-content>.active {
-          margin: 0;
-          padding: 0;
-        }
+    #uncontrolled-tab-example-pane-1 {
+      margin: 10px;
+      width: 116%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
 
-        #uncontrolled-tab-example-pane-1 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+    #uncontrolled-tab-example-pane-2 {
+      margin: 10px;
+      width: 116%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
 
-        #uncontrolled-tab-example-pane-2 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+    #contactRow {
+      margin: 0;
+      padding: 0;
+      margin-left: -94px;
+    }
 
-        #contactRow {
-          margin: 0;
-          padding: 0;
-          margin-left: -94px;
-        }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin-left: 85px;
+    }
 
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin-left: 85px;
-        }
-        #grid {
-          width: 200%;
-          padding: 0;
-          margin:0;
-        }
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin: 0;
-          width: 150px;
-          margin-top: -90px;
-          margin-left: 30px;
-          margin-bottom: -10px;
-          padding: 0
-        }
-        #roundimg {
-          width: 40em;
-          height: auto;
-        }
+    #grid {
+      width: 200%;
+      padding: 0;
+      margin:0;
+    }
 
-        * {
-       /* -webkit-box-sizing: border-box; */
-       -moz-box-sizing: border-box;
-       /* box-sizing: border-box; */
-        }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin: 0;
+      width: 150px;
+      margin-top: -90px;
+      margin-left: 30px;
+      margin-bottom: -10px;
+      padding: 0
+    }
 
-        .meetTheStudentsHeader {
-          transform: scale(0.9, 0.9);
-          margin-top: 1em;
-          margin-bottom: 1em;
-          padding-top: 0;
-        }
+    #roundimg {
+      width: 40em;
+      height: auto;
+    }
+
+    * {
+      -moz-box-sizing: border-box;
+    }
+
+    .meetTheStudentsHeader {
+      transform: scale(0.9, 0.9);
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 0;
+    }
 }
 
 /* Landscape */
@@ -1327,144 +1305,143 @@ body {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
 
-        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
-          width: 100%;
-        }
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
+      width: 100%;
+    }
 
-        #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
-          margin: 0;
-          /* width: 25%; */
-        }
+    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
+      margin: 0;
+    }
 
-        #cardIcon {
-          margin: 10px;
-        }
+    #cardIcon {
+      margin: 10px;
+    }
 
-        body {
-          background-color: white;
-        }
+    body {
+      background-color: white;
+    }
 
-        #grid {
-          margin: 0;
-          padding: 0;
-          width: 100%;
-          background-color: white;
-        }
+    #grid {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: white;
+    }
 
-        div #grid .container {
-          width: 200%;
-          margin: 0;
-          padding: 0;
-        }
+    div #grid .container {
+      width: 200%;
+      margin: 0;
+      padding: 0;
+    }
 
-        #projectRowTop {
-          margin: 0;
-          padding: 0;
-          margin-left: -30px;
-          margin-bottom: 10px;
-        }
+    #projectRowTop {
+      margin: 0;
+      padding: 0;
+      margin-left: -30px;
+      margin-bottom: 10px;
+    }
 
-        #projectRowReact {
-          margin: 0;
-          margin-left: -25px;
-          margin-bottom: 10px;
-        }
+    #projectRowReact {
+      margin: 0;
+      margin-left: -25px;
+      margin-bottom: 10px;
+    }
 
-        #projectRowDb {
-          margin: 0;
-          margin-left: -23px;
-          margin-bottom: 10px;
-        }
+    #projectRowDb {
+      margin: 0;
+      margin-left: -23px;
+      margin-bottom: 10px;
+    }
 
-        #projectRowBottom {
-          margin: 0;
-          font-size: 5px;
-          margin-left: -23px;
-          margin-bottom: 20px;
-        }
+    #projectRowBottom {
+      margin: 0;
+      font-size: 5px;
+      margin-left: -23px;
+      margin-bottom: 20px;
+    }
 
-        #studentNameDetail {
-          font-size: 30px;
-          margin-top: 100px;
-          text-align: left;
-       }
+    #studentNameDetail {
+      font-size: 30px;
+      margin-top: 100px;
+      text-align: left;
+    }
 
-        #grid > div.imageRow.row {
-          width: 100%;
-          margin-left: 0;
-        }
+    #grid > div.imageRow.row {
+      width: 100%;
+      margin-left: 0;
+    }
 
-        #uncontrolled-tab-example-tab-1 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          padding: 8px;
+    #uncontrolled-tab-example-tab-1 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      padding: 8px;
+    }
 
-        }
+    #uncontrolled-tab-example-tab-2 {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 10px;
+      padding: 8px;
+    }
 
-        #uncontrolled-tab-example-tab-2 {
-          font-size: 1em;
-          margin: 0;
-          padding: 0;
-          margin-top: 10px;
-          margin-left: 10px;
-          padding: 8px;
-        }
+    .tab-content>.active {
+      margin: 0;
+      padding: 0;
+    }
 
-        .tab-content>.active {
-          margin: 0;
-          padding: 0;
-        }
+    #uncontrolled-tab-example-pane-1 {
+      margin: 10px;
+      width: 116%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
 
-        #uncontrolled-tab-example-pane-1 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+    #uncontrolled-tab-example-pane-2 {
+      margin: 10px;
+      width: 116%;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
 
-        #uncontrolled-tab-example-pane-2 {
-          margin: 10px;
-          width: 116%;
-          margin-left: 20px;
-          margin-top: 20px;
-        }
+    #contactRow {
+      margin: 0;
+      padding: 0;
+      margin-left: -100px;
+      text-align: right;
+      width: 135%;
+    }
 
-        #contactRow {
-          margin: 0;
-          padding: 0;
-          margin-left: -100px;
-          text-align: right;
-          width: 135%;
-        }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin-left: 85px;
+    }
 
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin-left: 85px;
-        }
-        #grid {
-          width: 200%;
-          padding: 0;
-          margin:0;
-        }
-        #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-          margin: 0;
-          width: 150px;
-          margin-top: -90px;
-          margin-left: 30px;
-          margin-bottom: -10px;
-          padding: 0
-        }
-        #roundimg {
-          width: 40em;
-          height: auto;
-        }
+    #grid {
+      width: 200%;
+      padding: 0;
+      margin:0;
+    }
 
-        * {
-       /* -webkit-box-sizing: border-box; */
-       -moz-box-sizing: border-box;
-       /* box-sizing: border-box; */
-        }
+    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
+      margin: 0;
+      width: 150px;
+      margin-top: -90px;
+      margin-left: 30px;
+      margin-bottom: -10px;
+      padding: 0
+    }
+
+    #roundimg {
+      width: 40em;
+      height: auto;
+    }
+
+    * {
+      -moz-box-sizing: border-box;
+    }
 }
 @media only screen and (max-width: 800px) {
 
@@ -1541,12 +1518,14 @@ body {
       margin-left: 20px;
       margin-top: 20px;
     }
+
     .meetTheStudentsHeader {
       transform: scale(0.9, 0.9);
       margin-top: 1em;
       margin-bottom: 1em;
       padding-top: 0;
     }
+
     #meetTheStudentsDiv {
     width: 100%;
     margin: 0 auto;
@@ -1554,14 +1533,6 @@ body {
 }
 
 /* ----------- iPad 1, 2, Mini and Air ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-width: 768px)
-  and (max-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-}
 
 /* Portrait */
 @media only screen
@@ -1677,17 +1648,19 @@ body {
     #contactRow {
       margin: 0;
       padding: 0;
-      margin-left: -16px;;
+      margin-left: -16px;
     }
 
     #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
       margin-left: 85px;
     }
+
     #grid {
       width: 200%;
       padding: 0;
       margin:0;
     }
+
     #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
       margin: 0;
       width: 150px;
@@ -1696,15 +1669,14 @@ body {
       margin-bottom: -10px;
       padding: 0
     }
+
     #roundimg {
       width: 40em;
       height: auto;
     }
 
     * {
-    /* -webkit-box-sizing: border-box; */
     -moz-box-sizing: border-box;
-    /* box-sizing: border-box; */
     }
 
     .meetTheStudentsHeader {
@@ -1795,7 +1767,6 @@ body {
       padding: 0;
       margin-top: 10px;
       padding: 8px;
-
     }
 
     #uncontrolled-tab-example-tab-2 {
@@ -1835,11 +1806,13 @@ body {
     #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
       margin-left: 85px;
     }
+
     #grid {
       width: 200%;
       padding: 0;
       margin:0;
     }
+
     #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
       margin: 0;
       width: 150px;
@@ -1848,15 +1821,14 @@ body {
       margin-bottom: -10px;
       padding: 0
     }
+
     #roundimg {
       width: 40em;
       height: auto;
     }
 
     * {
-    /* -webkit-box-sizing: border-box; */
     -moz-box-sizing: border-box;
-    /* box-sizing: border-box; */
     }
 
     .meetTheStudentsHeader {
@@ -1868,14 +1840,6 @@ body {
 }
 
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-width: 768px)
-  and (max-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
 
 /* Portrait */
 @media only screen
@@ -1997,11 +1961,13 @@ body {
     #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
       margin-left: 85px;
     }
+
     #grid {
       width: 200%;
       padding: 0;
       margin:0;
     }
+
     #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
       margin: 0;
       width: 150px;
@@ -2010,6 +1976,7 @@ body {
       margin-bottom: -10px;
       padding: 0
     }
+
     #roundimg {
       width: 40em;
       height: auto;
@@ -2162,11 +2129,13 @@ body {
     #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
       margin-left: 85px;
     }
+
     #grid {
       width: 200%;
       padding: 0;
-      margin:0;
+      margin: 0;
     }
+
     #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
       margin: 0;
       width: 150px;
@@ -2175,6 +2144,7 @@ body {
       margin-bottom: -10px;
       padding: 0
     }
+
     #roundimg {
       width: 40em;
       height: auto;
@@ -2194,97 +2164,7 @@ body {
     }
 }
 
-/* Portrait */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-width: 834px)
-  and (max-width: 834px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-width: 1112px)
-  and (max-width: 1112px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* ----------- iPad Pro 12.9" ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-width: 1024px)
-  and (max-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-width: 1024px)
-  and (max-width: 1024px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-  and (min-width: 1366px)
-  and (max-width: 1366px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* ----------- Galaxy S3 ----------- */
-
-/* Portrait and Landscape */
-@media screen
-  and (device-width: 320px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait */
-@media screen
-  and (device-width: 320px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media screen
-  and (device-width: 320px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
-
-/* Portrait and Landscape */
-@media screen
-  and (device-width: 320px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 3) {
-
-}
 
 /* Portrait */
 @media screen
@@ -2440,41 +2320,4 @@ body {
     #meetTheStudentsDiv {
       width: 100%;
     }
-}
-
-/* Landscape */
-@media screen
-  and (device-width: 320px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-
-}
-
-/* ----------- Galaxy S6 ----------- */
-
-/* Portrait and Landscape */
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 4) {
-
-}
-
-/* Portrait */
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 4)
-  and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 4)
-  and (orientation: landscape) {
-
 }
