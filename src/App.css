@@ -821,7 +821,6 @@ body {
   #roundimg {
     width: 40em;
     height: auto;
-    margin-top: 2em;
   }
 
   * {
@@ -980,7 +979,6 @@ body {
   #roundimg {
     width: 40em;
     height: auto;
-    margin-top: 2em;
   }
 
   * {
@@ -1293,7 +1291,6 @@ body {
     #roundimg {
       width: 40em;
       height: auto;
-      margin-top: 2em;
     }
 
     * {
@@ -1305,6 +1302,10 @@ body {
       margin-top: 1em;
       margin-bottom: 1em;
       padding-top: 0;
+    }
+
+    #studentImages {
+      margin-top: 2em;
     }
 }
 
