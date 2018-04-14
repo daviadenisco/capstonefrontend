@@ -210,7 +210,8 @@ a#studentName {
 }
 
 .pager {
-  padding-left: 20px;
+  margin: 0;
+  /* padding-left: 20px; */
 }
 
 .col-md-pull-6 {
