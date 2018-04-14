@@ -194,7 +194,6 @@ a#studentName {
 
 #previous {
   color: #47B6C4;
-  margin-left: 50px;
 }
 
 #previous:hover {
@@ -1153,6 +1152,15 @@ body {
   and (max-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
+
+    #previous {
+      float: right;
+    }
+
+    #next {
+      float: right;
+
+    }
 
     #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
       width: 100%;
