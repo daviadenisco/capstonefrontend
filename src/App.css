@@ -833,8 +833,8 @@ body {
 
   .meetTheStudentsHeader {
     transform: scale(0.9, 0.9);
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     padding-top: 0;
@@ -1287,6 +1287,10 @@ body {
       margin:0;
     }
 
+    #studentBody > div {
+      margin-top: -30px;
+    }
+
     #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
       margin: 0;
       width: 150px;
@@ -1299,6 +1303,7 @@ body {
     #roundimg {
       width: 40em;
       height: auto;
+      margin: 0
     }
 
     * {
@@ -1307,8 +1312,8 @@ body {
 
     .meetTheStudentsHeader {
       transform: scale(0.9, 0.9);
-      margin-top: 1em;
-      margin-bottom: 1em;
+      margin-top: 0;
+      margin-bottom: 0;
       padding-top: 0;
     }
 
