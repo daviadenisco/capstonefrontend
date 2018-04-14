@@ -821,6 +821,7 @@ body {
   #roundimg {
     width: 40em;
     height: auto;
+    margin-top: 2em;
   }
 
   * {
@@ -979,6 +980,7 @@ body {
   #roundimg {
     width: 40em;
     height: auto;
+    margin-top: 2em;
   }
 
   * {
@@ -1130,6 +1132,7 @@ body {
   #roundimg {
     width: 40em;
     height: auto;
+    margin-top: 2em;
   }
 
   * {
@@ -1213,6 +1216,12 @@ body {
       font-size: 30px;
       margin-top: 100px;
       text-align: left;
+      padding: 0;
+    }
+
+    .pager {
+      margin: 0;
+      padding: 0;
     }
 
     #grid > div.imageRow.row {
@@ -1438,6 +1447,7 @@ body {
     #roundimg {
       width: 40em;
       height: auto;
+      margin-top: 2em;
     }
 
     * {
@@ -1674,6 +1684,7 @@ body {
     #roundimg {
       width: 40em;
       height: auto;
+      margin-top: 2em;
     }
 
     * {
@@ -1826,6 +1837,7 @@ body {
     #roundimg {
       width: 40em;
       height: auto;
+      margin-top: 2em;
     }
 
     * {
@@ -1981,6 +1993,7 @@ body {
     #roundimg {
       width: 40em;
       height: auto;
+      margin-top: 2em;
     }
 
     * {
@@ -2149,6 +2162,7 @@ body {
     #roundimg {
       width: 40em;
       height: auto;
+      margin-top: 2em;
     }
 
     * {
@@ -2302,6 +2316,7 @@ body {
     #roundimg {
       width: 40em;
       height: auto;
+      margin-top: 2em;
     }
 
     * {
