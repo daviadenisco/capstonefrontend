@@ -69,10 +69,12 @@ class Student extends Component {
     }
     return (
       <div>
+      <div className="pull-right">
       <Pager>
-        <Pager.Item id="next" href={this.nextId}>Next</Pager.Item>
         <Pager.Item id="previous" href={this.previousId}>Prev</Pager.Item>{' '}
+        <Pager.Item id="next" href={this.nextId}>Next</Pager.Item>
       </Pager>
+      </div>
       <Grid id="grid">
         <Row className="imageRow">
           <Col xs={6} md={4}>
