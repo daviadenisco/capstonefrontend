@@ -70,8 +70,8 @@ class Student extends Component {
     return (
       <div>
       <Pager>
-        <Pager.Item id="previous" href={this.previousId}>Prev</Pager.Item>{' '}
         <Pager.Item id="next" href={this.nextId}>Next</Pager.Item>
+        <Pager.Item id="previous" href={this.previousId}>Prev</Pager.Item>{' '}
       </Pager>
       <Grid id="grid">
         <Row className="imageRow">
