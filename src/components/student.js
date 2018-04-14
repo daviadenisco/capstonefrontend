@@ -69,12 +69,6 @@ class Student extends Component {
     }
     return (
       <div>
-      <div className="pull-right">
-      <Pager>
-        <Pager.Item id="previous" href={this.previousId}>Prev</Pager.Item>{' '}
-        <Pager.Item id="next" href={this.nextId}>Next</Pager.Item>
-      </Pager>
-      </div>
       <Grid id="grid">
         <Row className="imageRow">
           <Col xs={6} md={4}>
@@ -86,6 +80,10 @@ class Student extends Component {
 
             <Col md={6} mdPull={6}>
               <Row>
+              <Pager>
+                <Pager.Item id="previous" href={this.previousId}>Prev</Pager.Item>{' '}
+                <Pager.Item id="next" href={this.nextId}>Next</Pager.Item>
+              </Pager>
                 <div>
                   <h1 id="studentNameDetail">{this.student.fullname}</h1>
                 </div>
@@ -160,3 +158,10 @@ class Student extends Component {
 }
 
 export default Student;
+
+// <div className="pull-right">
+// <Pager>
+//   <Pager.Item id="previous" href={this.previousId}>Prev</Pager.Item>{' '}
+//   <Pager.Item id="next" href={this.nextId}>Next</Pager.Item>
+// </Pager>
+// </div>
