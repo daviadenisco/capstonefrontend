@@ -1305,7 +1305,7 @@ body {
     }
 
     #studentImages {
-      margin-top: 2em;
+      margin-top: 4em;
     }
 }
 
@@ -1452,6 +1452,10 @@ body {
 
     * {
       -moz-box-sizing: border-box;
+    }
+
+    #studentImages {
+      margin-top: 4em;
     }
 }
 @media only screen and (max-width: 800px) {
