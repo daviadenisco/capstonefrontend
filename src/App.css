@@ -1455,7 +1455,7 @@ body {
     }
 
     #studentImages {
-      margin-top: 4em;
+      margin-top: 2em;
     }
 }
 @media only screen and (max-width: 800px) {
@@ -2187,6 +2187,11 @@ body {
   and (max-height: 640px)
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: portrait) {
+
+    #studentImages {
+      margin-top: 4em;
+    }
+
     #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
       width: 100%;
     }
