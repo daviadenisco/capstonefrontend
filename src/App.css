@@ -202,10 +202,15 @@ a#studentName {
 
 #next {
   color: #47B6C4;
+  margin: 0;
 }
 
 #next:hover {
   color: #F58F32;
+}
+
+.pager {
+  padding-left: 20px;
 }
 
 .col-md-pull-6 {
