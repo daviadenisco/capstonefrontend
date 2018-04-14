@@ -194,6 +194,7 @@ a#studentName {
 
 #previous {
   color: #47B6C4;
+  margin-left: 50px;
 }
 
 #previous:hover {
