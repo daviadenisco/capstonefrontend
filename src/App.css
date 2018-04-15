@@ -1151,6 +1151,11 @@ body {
     margin-bottom: 1em;
     padding-top: 0;
   }
+
+  .pager {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* ----------- iPhone X ----------- */
@@ -1162,34 +1167,8 @@ body {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
 
-    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
-      width: 100%;
-    }
-
-    #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 {
-      margin: 0;
-      width: 100%;
-    }
-
-    #cardIcon {
-      margin: 10px;
-    }
-
     body {
       background-color: white;
-    }
-
-    #grid {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      background-color: white;
-    }
-
-    div #grid .container {
-      width: 200%;
-      margin: 0;
-      padding: 0;
     }
 
     #projectRowTop {
@@ -1218,21 +1197,14 @@ body {
       margin-bottom: 20px;
     }
 
-    #studentNameDetail {
-      font-size: 30px;
-      margin-top: 100px;
-      text-align: left;
-      padding: 0;
-    }
-
     .pager {
       margin: 0;
       padding: 0;
     }
 
-    #grid > div.imageRow.row {
-      width: 100%;
-      margin-left: 0;
+    ul {
+      margin: 0;
+      padding: 0;
     }
 
     #uncontrolled-tab-example-tab-1 {
@@ -1262,6 +1234,7 @@ body {
       width: 116%;
       margin-left: 20px;
       margin-top: 20px;
+      margin-right: 20px;
     }
 
     #uncontrolled-tab-example-pane-2 {
@@ -1269,6 +1242,7 @@ body {
       width: 116%;
       margin-left: 20px;
       margin-top: 20px;
+      margin-right: 20px;
     }
 
     #contactRow {
@@ -1277,48 +1251,12 @@ body {
       margin-left: -94px;
     }
 
-    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-      margin-left: 85px;
-    }
-
-    #grid {
-      width: 200%;
-      padding: 0;
-      margin:0;
-    }
-
     #studentBody > div {
       margin-top: -30px;
     }
 
-    #grid > div.imageRow.row > div.col-md-4.col-xs-6 {
-      margin: 0;
-      width: 150px;
-      margin-top: -90px;
-      margin-left: 30px;
-      margin-bottom: -10px;
-      padding: 0
-    }
-
-    #roundimg {
-      width: 40em;
-      height: auto;
-      margin: 0
-    }
-
     * {
       -moz-box-sizing: border-box;
-    }
-
-    .meetTheStudentsHeader {
-      transform: scale(0.9, 0.9);
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-top: 0;
-    }
-
-    #studentImages {
-      margin-top: 4em;
     }
 }
 
@@ -1470,7 +1408,13 @@ body {
     #studentImages {
       margin-top: 2em;
     }
+
+    .pager {
+      margin: 0;
+      padding: 0;
+    }
 }
+
 @media only screen and (max-width: 800px) {
 
     #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
