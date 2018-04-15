@@ -1338,6 +1338,10 @@ body {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
 
+    #nav > nav > div > div.navbar-header > button {
+      padding-top: 20px;
+    }
+    
     #nav > nav > div {
       padding: 0;
       padding-right: 15px;
