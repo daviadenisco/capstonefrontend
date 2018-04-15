@@ -835,6 +835,7 @@ body {
     width: 116%;
     margin-left: 20px;
     margin-top: 20px;
+    padding-right: 20px;
   }
 
   #uncontrolled-tab-example-pane-2 {
@@ -842,6 +843,7 @@ body {
     width: 116%;
     margin-left: 20px;
     margin-top: 20px;
+    padding-right: 20px;
   }
 
   #contactRow {
