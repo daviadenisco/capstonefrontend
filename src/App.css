@@ -131,23 +131,23 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-  /* font-weight: normal; */
-  /* font-size: 1.5em; */
-  /* text-align: center; */
-  /* margin: 1em auto; */
-  margin-left: 2em;
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1em auto;
+  /* margin-left: 1.5em;
   margin-top: 2em;
-  padding: 0;
+  padding: 0; */
 }
 
 #roundimg {
-  width: 20em;
+  width: 12em;
   height: auto;
   -webkit-border-radius: 99em;
   -moz-border-radius: 99em;
   border-radius: 99em;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
-  margin-top: 1em;
   text-align: center;
   margin: 0;
 }
@@ -256,6 +256,15 @@ a#studentName {
 
 li.active #uncontrolled-tab-example-tab-1{
   color: #47B6C4;
+}
+
+.personalSite {
+  color: #47B6C4;
+}
+
+.personalSite:hover {
+  color: #F58F32;
+  text-decoration: none;
 }
 
 #uncontrolled-tab-example-tab-2 {

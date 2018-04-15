@@ -136,7 +136,7 @@ class Student extends Component {
             <Tab eventKey={1} title="About Me">
               {this.student.bio}
               <p>
-                View my personal site: <a href={this.student.personalsite}>{this.student.personalsite}</a>
+                View my personal site: <a className="personalSite" href={this.student.personalsite}>{this.student.personalsite}</a>
               </p>
             </Tab>
             <Tab eventKey={2} title="Capstone Description">
