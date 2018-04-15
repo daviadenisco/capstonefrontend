@@ -32,12 +32,12 @@ body {
   border-radius: 0;
   background: #043B4B;
   margin: 0;
-  height: 6em;
+  height: 5em;
 }
 
 .galvanize-logo {
   margin: 0;
-  margin-top: 0.65em;
+  margin-top: 0.30em;
   margin-bottom: 0.2em;
 }
 
@@ -65,10 +65,10 @@ body {
 #nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button {
   background-color: #F58F32;
   border: none;
-  margin-top: 24px;
+  margin-top: 17px;
   margin-bottom: 21px;
   letter-spacing: 1px;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 300;
   color: white;
   padding: 8px;
@@ -109,10 +109,10 @@ body {
 .meetTheStudentsHeader {
   font-family: 'Lora', serif;
   font-size: 2.5em;
-  margin-top: 2.25em;
-  margin-bottom: 2.25em;
+  margin-top: 2.3em;
+  margin-bottom: 2em;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1px;
   opacity: 0.9;
   width: 100%;
@@ -136,18 +136,19 @@ body {
   font-size: 1.5em;
   text-align: center;
   margin: 1em auto;
-  /* margin-left: 1.5em;
-  margin-top: 2em;
-  padding: 0; */
 }
 
 #roundimg {
   width: 12em;
+  max-width: 100%;
   height: auto;
   -webkit-border-radius: 99em;
   -moz-border-radius: 99em;
   border-radius: 99em;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 0;
+  margin-top: 1em;
   text-align: center;
   margin: 0;
 }
@@ -183,6 +184,31 @@ a#studentName {
 /* ---------------------------- */
    /* student details pages */
 /* ---------------------------- */
+
+#individualImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: 1.5em;
+  margin-top: 2.75em;
+  padding: 0;
+}
+
+#headshot {
+  width: 18em;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+#headshot:hover {
+  border-radius: 50%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  cursor:pointer;
+  margin: 0;
+}
 
 #previous {
   color: #47B6C4;

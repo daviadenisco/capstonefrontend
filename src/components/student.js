@@ -72,9 +72,9 @@ class Student extends Component {
       <Grid id="grid">
         <Row className="imageRow">
           <Col xs={6} md={4}>
-            <a id="studentImages">
-              <img id="roundimg" src={this.student.headshot} title={this.student.fullname} alt={this.student.fullname}></img>
-            </a>
+            <div id="individualImage">
+              <img id="headshot" src={this.student.headshot} title={this.student.fullname} alt={this.student.fullname}></img>
+            </div>
 
           </Col>
 
