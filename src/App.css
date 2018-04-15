@@ -85,6 +85,7 @@ body {
   text-decoration: none;
   color: #f2f2f2;
 }
+
 #nav > nav > div > div.navbar-collapse.collapse > ul > div > div > button:hover {
   border: 1px solid #f2f2f2;
 }
@@ -1207,6 +1208,16 @@ body {
       background-color: white;
     }
 
+    #nav > nav > div {
+      padding: 0;
+      padding-right: 15px;
+      padding-left: 10px;
+    }
+
+    #nav > nav > div > div.navbar-header > button {
+      padding-top: 20px;
+    }
+
     #projectRowTop {
       margin: 0;
       padding: 0;
@@ -1236,6 +1247,9 @@ body {
     .pager {
       margin: 0;
       padding: 0;
+      /* margin-left: 20px; */
+      /* padding-left: 20px; */
+      float: right;
     }
 
     ul {
@@ -1294,6 +1308,27 @@ body {
     * {
       -moz-box-sizing: border-box;
     }
+
+    #individualImage {
+      margin: 0;
+      padding: 0;
+      padding-top: 4em;
+      margin-left: -10px;
+    }
+
+    #headshot {
+      width: 12em;
+      padding-left: 0;
+      margin-left: 0;
+      /* padding-right: 20px; */
+      margin-right: 20px;
+    }
+
+    h1#studentNameDetail {
+      width: 100%;
+      margin-top: 140px;
+      /* padding-top: 200px; */
+    }
 }
 
 /* Landscape */
@@ -1302,6 +1337,12 @@ body {
   and (max-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
+
+    #nav > nav > div {
+      padding: 0;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
 
     #grid > div.imageRow.row > div.col-md-6.col-md-pull-6 > div.container > div > div {
       width: 100%;
@@ -1358,9 +1399,9 @@ body {
       margin-bottom: 20px;
     }
 
-    #studentNameDetail {
+    h1#studentNameDetail {
       font-size: 30px;
-      margin-top: 100px;
+      margin-top: 30px;
       text-align: left;
     }
 
