@@ -737,6 +737,10 @@ body {
     padding-top: 20px;
   }
 
+  #nav > nav > div > div.navbar-header > button:hover {
+    color: white;
+  }
+
   #studentImages {
     margin-top: 4em;
   }
@@ -1412,7 +1416,7 @@ body {
       width: 116%;
       margin-left: 20px;
       margin-top: 20px;
-      margin-right: 20px;
+      margin-right: 10px;
     }
 
     #uncontrolled-tab-example-pane-2 {
@@ -1420,7 +1424,7 @@ body {
       width: 116%;
       margin-left: 20px;
       margin-top: 20px;
-      margin-right: 20px;
+      margin-right: 10px;
     }
 
     #contactRow {
