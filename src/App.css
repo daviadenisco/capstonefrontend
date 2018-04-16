@@ -1111,6 +1111,7 @@ body {
 
   #headshot {
     margin-top: 35px;
+    width: 10em;
   }
 
   .pager {
@@ -1417,6 +1418,7 @@ body {
       margin-left: 20px;
       margin-top: 20px;
       margin-right: 10px;
+      padding-right: 0;
     }
 
     #uncontrolled-tab-example-pane-2 {
@@ -1424,7 +1426,8 @@ body {
       width: 116%;
       margin-left: 20px;
       margin-top: 20px;
-      margin-right: 10px;
+      margin-right: 20px;
+      padding-right: 0;
     }
 
     #contactRow {
