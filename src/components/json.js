@@ -186,7 +186,7 @@ var json = [{
  capstonelink: "http://contactstudentdirectly.surge.sh/",
  capstonedesc: "My capstone project helps pro skaters share secrete skate spots in an exclusive network.",
  q1project: "https://leadscare-2a474.firebaseapp.com/",
- q2project: "https://github.com/Jontronics/project-q2",
+ q2project: "https://fathomless-meadow-49018.herokuapp.com/",
  q3project: "https://github.com/Jontronics/react-google-map",
  bio: "Hello my name is Jonathan and I've got chops in all phases of design, prototyping and development process. I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. Afer all, that's where the majority of amazing user experiences start. I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more. To validate product features, I quickly prototype and have potential users test the product using Product Management methodologies. I can build full stack web applications to get your product out the door and into users hands as fast as possible.",
  funfact: "",
