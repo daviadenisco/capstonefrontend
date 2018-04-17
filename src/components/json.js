@@ -182,7 +182,7 @@ var json = [{
  github: "https://github.com/Jontronics",
  linkedin: "https://www.linkedin.com/in/jonathan-aquarone-73085189/",
  email: "mailto:j.aquarone@gmail.com",
- personalsite: "http://contactstudentdirectly.surge.sh/",
+ personalsite: "http://portfolio-m2vuuj.turbo360-vertex.com/",
  capstonelink: "http://garage-sale-nahqcc.turbo360-vertex.com/landing",
  capstonedesc: "My capstone project helps pro skaters share secrete skate spots in an exclusive network.",
  q1project: "https://leadscare-2a474.firebaseapp.com/",
