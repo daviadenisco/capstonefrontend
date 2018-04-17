@@ -183,7 +183,7 @@ var json = [{
  linkedin: "https://www.linkedin.com/in/jonathan-aquarone-73085189/",
  email: "mailto:j.aquarone@gmail.com",
  personalsite: "http://contactstudentdirectly.surge.sh/",
- capstonelink: "http://contactstudentdirectly.surge.sh/",
+ capstonelink: "http://garage-sale-nahqcc.turbo360-vertex.com/landing",
  capstonedesc: "My capstone project helps pro skaters share secrete skate spots in an exclusive network.",
  q1project: "https://leadscare-2a474.firebaseapp.com/",
  q2project: "https://fathomless-meadow-49018.herokuapp.com/",
