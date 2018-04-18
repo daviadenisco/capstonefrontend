@@ -96,7 +96,7 @@ var json = [{
   email: "mailto:jkt290@nyu.edu",
   personalsite: "https://jkyletreman.github.io/personal-site/",
   capstonelink: "https://jkyletreman.github.io/feedme_splash/",
-  capstonedesc: "We all have to eat, but that simple task can become tedious and time consuming, especially during the week. Feed Me, is a meal planner app uses that premise to make planning, scheduling and buying a weeks worth of meals easy. Users are able to select their meals, add them to a day of the week, view their shopping list and receive that list texted to them. Feed Me built with React, React Router, NodeJS, PostgreSQL, Electron, CircleCi and Ant Design.",
+  capstonedesc: "We all have to eat, but that simple task can become tedious and time consuming, especially during the week. Feed Me, a meal planner app, uses that premise to make planning, scheduling and buying a week's worth of meals easy. Users are able to select their meals, add them to a day of the week, view their shopping list and receive that list via text. Feed Me is built with React, React Router, NodeJS, PostgreSQL, Electron, CircleCi and Ant Design.",
   q1project: "https://html-platformer-jungle-jumper.firebaseapp.com/",
   q2project: "https://stark-citadel-36057.herokuapp.com/recipes/",
   q3project: "https://flash-app-react-galvanize.herokuapp.com/",
