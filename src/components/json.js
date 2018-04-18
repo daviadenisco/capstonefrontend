@@ -51,7 +51,7 @@ var json = [{
   email: "mailto:amazingmardon@gmail.com",
   personalsite: "DonTamayo.com",
   capstonelink: "https://carmania2.herokuapp.com/",
-  capstonedesc: "'Carmania', simply obsession for cars. I built this app for my capstone project to grow my skills in Web Developing at the same time having fun building inasmuch as I myself a car lover. My app includes latest news, articles, buy/sell your car and videos. I used React, Node, Firebase, Heroku, Postman and other dependencies for my application.",
+  capstonedesc: "'Carmania', simply an obsession with cars. I built this app for my capstone project to grow my skills in Web Development and at the same time have fun building inasmuch as I myself am a car lover. My app includes the latest news, articles, videos, and the ability to buy/sell your car. I used React, React-Router, React-slick, React-draft-wysiwg, Node.js, Heroku, Postman, Firebase for Authentication and Database. and other dependencies for my application.",
   q1project: "https://dontamayo.github.io/Q1_cars_2nd/index.html",
   q2project: "https://nba-apps-2018.herokuapp.com/",
   q3project: "https://nba-apps-2018.herokuapp.com/",
